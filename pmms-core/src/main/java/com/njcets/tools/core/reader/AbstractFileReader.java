@@ -1,4 +1,4 @@
-package com.njcets.tools.core.file.reader;
+package com.njcets.tools.core.reader;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

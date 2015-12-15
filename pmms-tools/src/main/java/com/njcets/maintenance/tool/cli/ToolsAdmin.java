@@ -46,12 +46,17 @@ public class ToolsAdmin {
             if( line.hasOption( "importTables" ) ) {
                 String tableFilesDir = line.getOptionValue( "importTables" );
                 TableFilesHandler tableFilesHandler = new TableFilesHandler();
+                tableFilesHandler.initilizeTableXML();
                 tableFilesHandler.readTableFilesToXML(tableFilesDir);
             }
 
             if( line.hasOption( "updateTables" ) ) {
                 String tableFilesDir = line.getOptionValue( "updateTables" );
+                TableFilesHandler tableFilesHandler = new TableFilesHandler();
+                tableFilesHandler.initilizeTableXML();
+                tableFilesHandler.readTableFilesToXML(tableFilesDir);
             }
+
         } catch( ParseException exp ) {
             // oops, something went wrong
             HelpFormatter formatter = new HelpFormatter();

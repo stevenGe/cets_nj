@@ -1,4 +1,4 @@
-package com.njcets.tools.core.file.reader;
+package com.njcets.tools.core.reader;
 
 /**
  * @author gexinl
