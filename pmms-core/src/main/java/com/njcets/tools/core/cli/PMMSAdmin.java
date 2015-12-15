@@ -82,8 +82,7 @@ public class PMMSAdmin {
 
                 System.out.println( "Export data Successfully" );
             }
-        }
-        catch( ParseException exp ) {
+        } catch( ParseException exp ) {
             // oops, something went wrong
             HelpFormatter formatter = new HelpFormatter();
             formatter.printHelp( "PMMSAdmin", options );

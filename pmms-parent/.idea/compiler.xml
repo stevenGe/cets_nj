@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="pmms-core" />
+        <module name="pmms-tools" />
       </profile>
     </annotationProcessing>
   </component>
