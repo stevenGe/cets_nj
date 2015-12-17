@@ -1,0 +1,42 @@
+Table (text file contains information for transfer columns)
+	Transfer Table to XML format	------(DONE)
+		read Table content from text file	------(DONE)
+		write content to XML file	------(DONE)
+	
+	Read Table from XML file		
+		parse XML to Table Object	------(DONE)
+		
+	Find a specified column name by index and table name	------(DONE)
+		
+Template File
+	Transfer Template File to Template Object
+		read template file (text file provided by customer)	------(DONE)
+		parse lines to Template Object	------(DONE)
+		serialise Template Object to hard-disk
+		
+	Update template File
+		get current template files
+		read Template Object
+		update content
+		save / rename again
+		
+	Create Table using tiles parsed from template file into SQLite DB
+		
+Transfer Rule File
+	record rule file to XML file (Manually)	------(DONE)
+	
+	Transfer Rule XML file to Object
+		read XML file
+		parse XML file
+		
+Data File
+	Read data file from directory
+	
+	Insert data into created Table into SQLite DB
+	
+Export data to XLS file
+	generate filtered columns
+	select out columns with title
+	write to XLS File
+	
+GUI	
