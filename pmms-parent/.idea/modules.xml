@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/pmms-parent.iml" filepath="$PROJECT_DIR$/pmms-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pmms-tools/pmms-tools.iml" filepath="$PROJECT_DIR$/../pmms-tools/pmms-tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pmms-tools/pmms-tools.iml" filepath="$PROJECT_DIR$/../pmms-tools/pmms-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pmms-tools/pmms-tools.iml" filepath="$PROJECT_DIR$/../pmms-tools/pmms-tools.iml" />
     </modules>
   </component>
 </project>
