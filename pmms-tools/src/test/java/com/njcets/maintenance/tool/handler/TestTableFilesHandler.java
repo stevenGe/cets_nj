@@ -24,7 +24,7 @@ public class TestTableFilesHandler {
 
     @Test
     public void testReadTableFilesToXML() {
-        tableFilesHandler.readTableFilesToXML("C:\\Users\\gexin\\Desktop\\PMMS\\resources");
+        tableFilesHandler.readTableFilesToXML("C:\\Work\\github\\cets_nj\\out\\PMMS\\TableSource");
     }
 
 }

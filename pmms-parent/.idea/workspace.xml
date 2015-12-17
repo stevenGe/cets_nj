@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="157f3a76-f19b-47a0-96d8-6917b36aa4a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/settings/SettingManagement.java" afterPath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/settings/SettingManagement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pmms-tools/src/main/java/com/njcets/maintenance/tool/handler/TableFilesHandler.java" afterPath="$PROJECT_DIR$/../pmms-tools/src/main/java/com/njcets/maintenance/tool/handler/TableFilesHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/TemplateHandler.java" afterPath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/TemplateHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pmms-tools/src/test/java/com/njcets/maintenance/tool/handler/TestTableFilesHandler.java" afterPath="$PROJECT_DIR$/../pmms-tools/src/test/java/com/njcets/maintenance/tool/handler/TestTableFilesHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pmms-core/pmms-core.iml" afterPath="$PROJECT_DIR$/../pmms-core/pmms-core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pmms-core/pom.xml" afterPath="$PROJECT_DIR$/../pmms-core/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pmms-parent.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450172059422" ignored="false" />
+    <file path="/Dummy.txt" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450342064669" ignored="false" />
     <file path="/File Header.txt.ft" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1447567523296" ignored="false" />
     <file path="/CertAdmin.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1447572001254" ignored="false" />
     <file path="/pom.xml" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450145064387" ignored="false" />
@@ -23,7 +26,7 @@
     <file path="/FileReaderFactory.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450107813052" ignored="false" />
     <file path="/TXTFileReaderImpl.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450106910550" ignored="false" />
     <file path="/AbstractFileReader.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450145594098" ignored="false" />
-    <file path="/Table.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450108687662" ignored="false" />
+    <file path="/Table.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450338666211" ignored="false" />
     <file path="/TableFilesHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450165055591" ignored="false" />
     <file path="/Settings.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450109248233" ignored="false" />
     <file path="/TestTableFilesHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450145755998" ignored="false" />
@@ -37,9 +40,15 @@
     <file path="/RuleKVPair.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450170228159" ignored="false" />
     <file path="/TemplateFileReader.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450253194004" ignored="false" />
     <file path="/RuleHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450258062466" ignored="false" />
-    <file path="/TemplateHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450258044242" ignored="false" />
+    <file path="/TemplateHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450333575131" ignored="false" />
     <file path="/Template.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450256114239" ignored="false" />
     <file path="/TemplateItem.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450257848492" ignored="false" />
+    <file path="/TestTemplateHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450334416904" ignored="false" />
+    <file path="/TableColumn.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450336475880" ignored="false" />
+    <file path="/TableHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450338985444" ignored="false" />
+    <file path="/TestTableHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450338852318" ignored="false" />
+    <file path="C:/hermes/btoe-dev-build/Installation/installer-upgrader/src/main/resources/sql/postgres/mng_alter_tables.sql" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450342250004" ignored="false" />
+    <file path="/mng_alter_tables.sql" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450342242294" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,34 +112,67 @@
       <file leaf-file-name="Rule.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/Rule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+            <state line="12" column="27" selection-start="176" selection-end="184" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RuleKVPair.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/RuleKVPair.java">
+      <file leaf-file-name="RuleHandler.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/RuleHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="16" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+            <state line="6" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.14545454">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SettingManagement.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/settings/SettingManagement.java">
+      <file leaf-file-name="Table.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/table/Table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="60" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+            <state line="42" column="9" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/table/TableHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="65" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/TemplateHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="37" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Template.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/Template.java">
+      <file leaf-file-name="TestTableHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pmms-core/src/test/java/com/njcets/tools/core/table/TestTableHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="60" selection-start="388" selection-end="388" vertical-scroll-proportion="0.37321937">
+            <state line="18" column="10" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableColumn.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/table/TableColumn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="5" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,54 +183,25 @@
       <file leaf-file-name="TemplateItem.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/TemplateItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="33" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+            <state line="17" column="19" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TemplateFileReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/reader/TemplateFileReader.java">
+      <file leaf-file-name="Template.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/Template.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="3" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
+            <state line="10" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TemplateHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/TemplateHandler.java">
+      <file leaf-file-name="TableFilesHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pmms-tools/src/main/java/com/njcets/maintenance/tool/handler/TableFilesHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="19" selection-start="550" selection-end="558" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractFileReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/reader/AbstractFileReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="58" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CRDRuleStrategyImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/CRDRuleStrategyImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="10" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CARuleStrategyImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/CARuleStrategyImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="22" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+            <state line="98" column="34" selection-start="3334" selection-end="3334" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -212,22 +225,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../pmms-tools/src/main/java/com/njcets/maintenance/tool/bean/Table.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/data/Column.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/GIRuleStrategyImpl.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/CRDRuleStrategyImpl.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/IIRuleStrategyImpl.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/IRuleStrategy.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/RuleKVPair.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/Rule.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/CARuleStrategyImpl.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/reader/TemplateFileReader.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/RuleHandler.java" />
         <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/TemplateHandler.java" />
         <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/settings/SettingManagement.java" />
         <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/Template.java" />
         <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/TemplateItem.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/CARuleStrategyImpl.java" />
         <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/TemplateHandler.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/pom.xml" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/test/java/com/njcets/tools/core/template/TestTemplateHandler.java" />
+        <option value="$PROJECT_DIR$/../pmms-tools/src/test/java/com/njcets/maintenance/tool/handler/TestTableFilesHandler.java" />
+        <option value="$PROJECT_DIR$/../pmms-tools/src/main/java/com/njcets/maintenance/tool/handler/TableFilesHandler.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/table/TableColumn.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/table/Table.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/table/TableHandler.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/test/java/com/njcets/tools/core/table/TestTableHandler.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/Rulehandler.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/RuleHandler.java" />
       </list>
     </option>
   </component>
@@ -239,10 +252,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="25" />
-    <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -294,7 +307,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -324,6 +336,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pmms-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pmms-tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -521,6 +567,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pmms-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pmms-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="table" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pmms-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pmms-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -556,6 +662,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pmms-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pmms-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="table" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -742,6 +878,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -760,9 +897,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -771,29 +908,7 @@
       <recent name="$PROJECT_DIR$/../pmms-tools/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestTableFilesHandler.testReadTableFilesToXML">
-    <configuration default="false" name="PMMSAdmin" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.njcets.tools.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.njcets.tools.core.cli.PMMSAdmin" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="--import-data &quot;mto-record&quot; &quot;/usr/local&quot;" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="pmms-core" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestTableHandler">
     <configuration default="false" name="TestTableFilesHandler" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -850,6 +965,90 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="TestTemplateHandler" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.njcets.tools.core.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="pmms-core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.njcets.tools.core.template" />
+      <option name="MAIN_CLASS_NAME" value="com.njcets.tools.core.template.TestTemplateHandler" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestTableHandler.testParseTableXML" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.njcets.tools.core.table.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="pmms-core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.njcets.tools.core.table" />
+      <option name="MAIN_CLASS_NAME" value="com.njcets.tools.core.table.TestTableHandler" />
+      <option name="METHOD_NAME" value="testParseTableXML" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestTableHandler" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.njcets.tools.core.table.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="pmms-core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.njcets.tools.core.table" />
+      <option name="MAIN_CLASS_NAME" value="com.njcets.tools.core.table.TestTableHandler" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -862,19 +1061,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -903,6 +1089,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -941,16 +1140,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.PMMSAdmin" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestTableFilesHandler" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestTableFilesHandler.testReadTableFilesToXML" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestTableFilesHandler" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestTableFilesHandler.testReadTableFilesToXML" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestTemplateHandler" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestTableHandler.testParseTableXML" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestTableHandler" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestTableFilesHandler.testReadTableFilesToXML" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestTableHandler" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.TestTableFilesHandler" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PMMSAdmin" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestTableHandler.testParseTableXML" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestTemplateHandler" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestTableFilesHandler.testReadTableFilesToXML" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -985,33 +1188,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="25" width="1440" height="873" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26542324" sideWeight="0.6706507" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30807087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22145145" sideWeight="0.84547246" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15452756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19423692" sideWeight="0.67027557" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1080,119 +1283,127 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/db/DBContext.java">
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/CARuleStrategyImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="36" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+        <state line="23" column="18" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/data/Column.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0">
+        <state line="9" column="17" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/cli/PMMSAdmin.java">
+    <entry file="file://$PROJECT_DIR$/../pmms-tools/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="72" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+        <state line="28" column="21" selection-start="909" selection-end="1020" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/IRuleStrategy.java">
+    <entry file="file://$PROJECT_DIR$/../pmms-core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+        <state line="16" column="4" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/IIRuleStrategyImpl.java">
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/test/java/com/njcets/tools/core/template/TestTemplateHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="41" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="20" column="22" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/GIRuleStrategyImpl.java">
+    <entry file="file://$PROJECT_DIR$/../pmms-tools/src/test/java/com/njcets/maintenance/tool/handler/TestTableFilesHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/CRDRuleStrategyImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/CARuleStrategyImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/Rule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/RuleKVPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/reader/TemplateFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/reader/AbstractFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="58" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/settings/SettingManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="60" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="22" column="65" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/TemplateItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="33" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+        <state line="17" column="19" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/TemplateHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="550" selection-end="558" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/Template.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="60" selection-start="388" selection-end="388" vertical-scroll-proportion="0.37321937">
+        <state line="10" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pmms-tools/src/main/java/com/njcets/maintenance/tool/handler/TableFilesHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="34" selection-start="3334" selection-end="3334" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/table/TableColumn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="5" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/table/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="9" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/TemplateHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="37" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/table/TableHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="65" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/test/java/com/njcets/tools/core/table/TestTableHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="10" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/Rule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="176" selection-end="184" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/RuleHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.14545454">
+          <folding />
         </state>
       </provider>
     </entry>

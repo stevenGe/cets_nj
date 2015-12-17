@@ -112,7 +112,7 @@ public class TableFilesHandler {
 
         try {
             if(out != null) {
-                Serializer serializer = new Serializer(out, "ISO-8859-1");
+                Serializer serializer = new Serializer(out, "UTF-8");
                 serializer.setIndent(4);
                 serializer.setMaxLength(64);
                 serializer.write(doc);

@@ -81,8 +81,7 @@ public class TemplateHandler {
 
     private List<String> parseColumns(int itemIndex, int columnNumber, List<String> lines) {
 
-        List<String> result = lines.subList(itemIndex + 2, itemIndex + 2 + columnNumber);
+       return lines.subList(itemIndex + 2, itemIndex + 2 + columnNumber);
 
-        return result;
     }
 }
