@@ -1,5 +1,7 @@
 package com.njcets.tools.core.rule;
 
+import nu.xom.Element;
+
 /**
  * @author gexinl
  */
@@ -12,6 +14,11 @@ public class RuleKVPair {
     public RuleKVPair(String key, String value) {
         this.key = key;
         this.value = value;
+    }
+
+    public RuleKVPair(Element kvPairElement) {
+         this.key = kvPairElement.getAttributeValue("value");
+         this.value = kvPairElement.getValue();
     }
 
     public String getKey() {

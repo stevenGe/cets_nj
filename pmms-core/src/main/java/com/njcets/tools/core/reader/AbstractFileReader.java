@@ -28,7 +28,9 @@ public abstract class AbstractFileReader {
             String oneLine;
             if(bufferedReader != null) {
                 while((oneLine = bufferedReader.readLine()) != null) {
-                    lines.add(oneLine);
+                    if(oneLine.length() != 0 && oneLine.trim().length() != 0) {
+                        lines.add(oneLine);
+                    }
                 }
             }
         } catch (IOException e) {

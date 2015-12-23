@@ -23,8 +23,8 @@ public class TestTemplateHandler {
 
     //@Test
     public void testgenerateTemplate() {
-        Template template = templateHandler.generateTemplate();
-        System.out.println(template.getTemplateName());
-        System.out.println(template.getItems().size());
+        templateHandler.generateTemplate();
+        System.out.println(templateHandler.getTemplate().getTemplateName());
+        System.out.println(templateHandler.getTemplate().getItems().size());
     }
 }

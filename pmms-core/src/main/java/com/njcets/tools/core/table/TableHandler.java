@@ -38,7 +38,6 @@ public class TableHandler {
             }
         } catch (ValidityException ex) {
             ex.printStackTrace();
-            doc = ex.getDocument();
             System.err.println("Invalid Table.xml file");
         } catch (ParsingException ex) {
             ex.printStackTrace();

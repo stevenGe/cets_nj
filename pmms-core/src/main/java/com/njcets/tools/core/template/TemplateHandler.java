@@ -12,6 +12,8 @@ import java.util.List;
 
 public class TemplateHandler {
 
+    private Template template;
+
     private String templateName;
 
     private String templateFilePath;
@@ -19,11 +21,12 @@ public class TemplateHandler {
     public TemplateHandler(String templateName, String templateFilePath) {
         this.templateName = templateName;
         this.templateFilePath = templateFilePath;
+        template = new Template(templateName);
     }
 
-    public Template generateTemplate() {
+    public void generateTemplate() {
         List<String> lines = readTemplateFile();
-        return parseTemplate(lines);
+        parseTemplate(lines);
     }
 
     private List<String> readTemplateFile() {
@@ -34,8 +37,7 @@ public class TemplateHandler {
         return lines;
     }
 
-    private Template parseTemplate(List<String> lines) {
-        Template template = new Template(this.templateName);
+    private void parseTemplate(List<String> lines) {
         if(lines.contains(SettingManagement.COMMON_RECORD_DATA_TEMPLATE)) {
             int index = lines.indexOf(SettingManagement.COMMON_RECORD_DATA_TEMPLATE);
             int columnNumber = Integer.valueOf(lines.get(index + 1));
@@ -75,13 +77,15 @@ public class TemplateHandler {
             templateItem.setColumnDefinition(columnDefinition);
             template.getItems().add(templateItem);
         }
-
-        return template;
     }
 
     private List<String> parseColumns(int itemIndex, int columnNumber, List<String> lines) {
 
        return lines.subList(itemIndex + 2, itemIndex + 2 + columnNumber);
 
+    }
+
+    public Template getTemplate() {
+        return template;
     }
 }

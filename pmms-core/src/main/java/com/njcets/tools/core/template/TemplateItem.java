@@ -1,5 +1,6 @@
 package com.njcets.tools.core.template;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -37,6 +38,20 @@ public class TemplateItem {
 
     public List<String> getColumnDefinition() {
         return columnDefinition;
+    }
+
+    public List<String> getPureColumnDefinition() {
+        List<String> result = new ArrayList<String>();
+        for(String oneLine : columnDefinition) {
+            int indexOfDescription = oneLine.indexOf("!");
+            if(indexOfDescription > 0) {
+                result.add((oneLine.substring(0, indexOfDescription)).trim());
+            } else {
+                result.add(oneLine);
+            }
+
+        }
+        return result;
     }
 
     public void setColumnDefinition(List<String> columnDefinition) {
