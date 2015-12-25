@@ -1,0 +1,56 @@
+COMMON_RECORD_DATA
+12
+-1,  5,   0,  4, 0	! record type
+12, 12,  47, 12, 0	! piping materials class
+12, 14, 163,  6, 0	! insulation purpose
+12, 15, 169,  8, 0	! insulation thickness
+-1,  7, 284,  4, 0      ! file units - metr, engl, mix
+12,  2, 288, 40, 0      ! line number label
+12,  3, 328, 16, 0      ! line id
+12, 10, 344, 16, 0      ! line sequence number
+12,  9, 360,  4, 0      ! fluid code
+12,  6, 364, 16, 0      ! module no - iso drawing number
+-1,  3,  59, 16, 0      ! commodity code
+-1, 18, 390, 16, 0      ! model name  
+COMPONENT_ATTRIBUTES
+12
+34,   4, 34,   4, 50,   4, 67,   3, 80,  3, 0,  17, 10,  0    ! model code 
+34,   3, 34,   3,  0,   0,  0,   0,  0,  0, 0, 383,  6,  0    ! commodity_name (man valve)
+ 0,   1,  0,   1,  0,   1,  0,   1,  0,  0, 1,  75, 10,  0    ! first size
+ 0,   1,  0,   1,  0,   1,  0,   1,  0,  0, 2,  85, 10,  0    ! second size
+ 0,   4,  0,   4,  0,   4,  0,   4,  0,  0, 1, 103,  6,  0    ! first end schedule
+ 0,   4,  0,   4,  0,   4,  0,   4,  0,  0, 2, 109,  6,  0    ! second end schedule
+ 0,   5,  0,   5,  0,   5,  0,   5,  0,  0, 1, 115,  6,  0    ! first end rating
+ 0,   5,  0,   5,  0,   5,  0,   5,  0,  0, 2, 121,  6,  0    ! second end rating
+34,  10, 34,  10, 50,  14, 67,   7, 80, 14, 0, 127,  4,  1    ! fabrication category 
+34,  21, 34,  21, 50,  22, 67,  16,  0,  0, 0, 131, 12,  0    ! ftf dimension or pipe length
+34,  46, 34,  46, 50,  38, 67,  52,  0,  0, 0, 203, 40,  0    ! remarks
+34,  20, 34,  20,  0,   0,  0,   0,  0,  0, 0, 251,  4,  0    ! bend angle
+IMPLIED_ITEMS
+10
+ 3,  0,  0,  0,  0, 0,  0, 0,  0, 0,  2,  17, 10, 0       ! weld type
+ 3,  0,  1,  0,  1, 0,  1, 0,  1, 1,  0,  75, 10, 0       ! weld size
+ 3,  0,  3,  0,  3, 0,  3, 0,  0, 1,  0, 380,  3, 0       ! weld end prep (type of weld)
+ 4,  0,  0,  0,  0, 0,  0, 3,  1, 0, -1,  17, 10, 0 	  ! item name
+ 4,  0,  1,  0,  1, 0,  1, 0,  0, 1,  0,  75, 10, 0	  ! gasket size
+ 4,  0,  5,  0,  5, 0,  5, 0,  0, 1,  0, 115,  6, 0	  ! gasket rating
+ 2,  0,  0,  0,  0, 0,  0, 0,  0, 0,  2, 131, 12, 0	  ! bolt length
+ 2,  0,  0,  0,  0, 0,  0, 0,  0, 0,  1, 143,  8, 0	  ! quantity of bolts
+ 2,  0,  0,  0,  0, 0,  0, 0,  0, 0,  3,  75, 10, 0	  ! bolt diameter
+ 3, 34, 10, 50, 14, 67, 7, 0,  0, 0,  0, 127,  4, 1	  ! fabrication category
+GENERATED_ITEMS
+13
+34,   4, 34,   4, 50,   4, 67,   3, 80,  3, 0, 0,  17, 10,  0    ! model code 
+34,   3, 34,   3,  0,   0,  0,   0,  0,  0, 0, 0, 383,  6,  0    ! commodity_name (man valve)
+ 0,   1,  0,   1,  0,   1,  0,   1,  0,  0, 1, 0,  75, 10,  0    ! first size
+ 0,   1,  0,   1,  0,   1,  0,   1,  0,  0, 2, 0,  85, 10,  0    ! second size
+ 0,   4,  0,   4,  0,   4,  0,   4,  0,  0, 1, 0, 103,  6,  0    ! first end schedule
+ 0,   4,  0,   4,  0,   4,  0,   4,  0,  0, 2, 0, 109,  6,  0    ! second end schedule
+ 0,   5,  0,   5,  0,   5,  0,   5,  0,  0, 1, 0, 115,  6,  0    ! first end rating
+ 0,   5,  0,   5,  0,   5,  0,   5,  0,  0, 2, 0, 121,  6,  0    ! second end rating
+34,  10, 34,  10, 50,  14, 67,   7, 80, 14, 0, 0, 127,  4,  1    ! fabrication category 
+34,  21, 34,  21, 50,  22, 67,  16,  0,  0, 0, 0, 131, 12,  0    ! ftf dimension or pipe length
+34,  46, 34,  46, 50,  38, 67,  52,  0,  0, 0, 0, 203, 40,  0    ! remarks
+34,  20, 34,  20,  0,   0,  0,   0,  0,  0, 0, 0, 251,  4,  0    ! bend angle
+ 0,   2,  0,   2,  0,   2,  0,   2,  0,  2, 0, 2, 143,  8,  0    ! item quantity
+

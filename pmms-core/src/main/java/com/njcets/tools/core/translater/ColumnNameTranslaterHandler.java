@@ -1,5 +1,7 @@
 package com.njcets.tools.core.translater;
 
+import com.njcets.tools.core.data.ColumnMetaData;
+import com.njcets.tools.core.rule.Rule;
 import com.njcets.tools.core.rule.RuleHandler;
 import com.njcets.tools.core.table.TableHandler;
 import com.njcets.tools.core.template.Template;
@@ -14,7 +16,7 @@ import java.util.List;
  */
 public class ColumnNameTranslaterHandler {
 
-    private List<String> columnNameList;
+    private List<ColumnMetaData> columnMetaDataList;
 
     private TemplateHandler templateHandler;            // handle template object parsed from template file
 
@@ -24,7 +26,7 @@ public class ColumnNameTranslaterHandler {
 
 
     public ColumnNameTranslaterHandler() {
-        this.columnNameList = new ArrayList<String>();
+        this.columnMetaDataList = new ArrayList<ColumnMetaData>();
     }
 
     public void translate() {
@@ -36,14 +38,20 @@ public class ColumnNameTranslaterHandler {
     }
 
     private void generateColumnNameFromTemplate(TemplateItem templateItem) {
-        // TODO: Use Translate Factory to handle the translate
-
         AbstractTranslater columnTranslater = TranslaterFactory.getTranslater(templateItem);
+        System.out.println("=========== template item name is: " + templateItem.getItemName());
+        Rule rule = ruleHandler.getRuleByName(templateItem.getItemName());
+        System.out.println("========== Current rule is: " + rule.getRuleName());
+        columnTranslater.setRule(rule);
+        columnTranslater.setTableHandler(tableHandler);
+
         List<String> templateLines = templateItem.getPureColumnDefinition();
-
+        for(String line : templateLines) {
+            System.out.println("========= Start to translate line: " + line);
+            ColumnMetaData columnMetaData = columnTranslater.apply(line);
+            columnMetaDataList.add(columnMetaData);
+        }
     }
-
-
 
     public void setTemplateHandler(TemplateHandler templateHandler) {
         this.templateHandler = templateHandler;
@@ -55,5 +63,9 @@ public class ColumnNameTranslaterHandler {
 
     public void setRuleHandler(RuleHandler ruleHandler) {
         this.ruleHandler = ruleHandler;
+    }
+
+    public List<ColumnMetaData> getColumnMetaDataList() {
+        return columnMetaDataList;
     }
 }

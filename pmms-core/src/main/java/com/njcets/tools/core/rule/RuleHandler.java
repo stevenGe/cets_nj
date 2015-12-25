@@ -4,7 +4,9 @@ package com.njcets.tools.core.rule;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Set;
 
 import nu.xom.*;
 
@@ -56,5 +58,9 @@ public class RuleHandler {
 
     public Map<String, Rule> getRulesMap() {
         return rulesMap;
+    }
+
+    public Rule getRuleByName(String ruleName) {
+        return this.rulesMap.get(ruleName);
     }
 }

@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="157f3a76-f19b-47a0-96d8-6917b36aa4a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/AbstractTranslater.java" afterPath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/AbstractTranslater.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/CATranslater.java" afterPath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/CATranslater.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/CRDTranslater.java" afterPath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/CRDTranslater.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/ColumnNameTranslaterHandler.java" afterPath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/ColumnNameTranslaterHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/GITranslater.java" afterPath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/GITranslater.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/IITranslater.java" afterPath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/IITranslater.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pmms-core/src/test/java/com/njcets/tools/core/MainTranslateColumn.java" afterPath="$PROJECT_DIR$/../pmms-core/src/test/java/com/njcets/tools/core/MainTranslateColumn.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/Rule.java" afterPath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/Rule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/RuleHandler.java" afterPath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/RuleHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/table/TableHandler.java" afterPath="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/table/TableHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pmms-parent.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450854196901" ignored="false" />
+    <file path="/Dummy.txt" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1451009266153" ignored="false" />
     <file path="/File Header.txt.ft" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1447567523296" ignored="false" />
     <file path="/CertAdmin.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1447572001254" ignored="false" />
     <file path="/pom.xml" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450145064387" ignored="false" />
@@ -26,7 +35,7 @@
     <file path="/TableFilesHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450165055591" ignored="false" />
     <file path="/Settings.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450109248233" ignored="false" />
     <file path="/TestTableFilesHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450145755998" ignored="false" />
-    <file path="/Rule.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450850242789" ignored="false" />
+    <file path="/Rule.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450924054082" ignored="false" />
     <file path="/Column.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450855002046" ignored="false" />
     <file path="/IRuleStrategy.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450166081087" ignored="false" />
     <file path="/CRDRuleStrategyImpl.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450165729122" ignored="false" />
@@ -35,25 +44,40 @@
     <file path="/GIRuleStrategyImpl.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450165903064" ignored="false" />
     <file path="/RuleKVPair.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450850473976" ignored="false" />
     <file path="/TemplateFileReader.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450253194004" ignored="false" />
-    <file path="/RuleHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450848324126" ignored="false" />
+    <file path="/RuleHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450923646168" ignored="false" />
     <file path="/TemplateHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450860140275" ignored="false" />
     <file path="/Template.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450256114239" ignored="false" />
     <file path="/TemplateItem.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450861131074" ignored="false" />
     <file path="/TestTemplateHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450860940197" ignored="false" />
     <file path="/TableColumn.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450336475880" ignored="false" />
-    <file path="/TableHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450848067545" ignored="false" />
+    <file path="/TableHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450925053556" ignored="false" />
     <file path="/TestTableHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450338852318" ignored="false" />
     <file path="C:/hermes/btoe-dev-build/Installation/installer-upgrader/src/main/resources/sql/postgres/mng_alter_tables.sql" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450342250004" ignored="false" />
     <file path="/mng_alter_tables.sql" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450342242294" ignored="false" />
     <file path="/TestRuleHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450851605923" ignored="false" />
-    <file path="/MainTranslateColumn.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450860863156" ignored="false" />
+    <file path="/MainTranslateColumn.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450891902527" ignored="false" />
     <file path="/MaterialTable.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450855395093" ignored="false" />
     <file path="/Row.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450855562752" ignored="false" />
     <file path="/ColumnNameTranslater.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450862339126" ignored="false" />
     <file path="/TranslaterFactory.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450862216963" ignored="false" />
-    <file path="/CATranslater.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450861847947" ignored="false" />
-    <file path="/AbstractTranslater.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450862247757" ignored="false" />
-    <file path="/ColumnNameTranslaterHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450862333919" ignored="false" />
+    <file path="/CATranslater.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450887976278" ignored="false" />
+    <file path="/AbstractTranslater.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450924707021" ignored="false" />
+    <file path="/ColumnNameTranslaterHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450922987945" ignored="false" />
+    <file path="/ColumnMetaData.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450887503465" ignored="false" />
+    <file path="/CRDTranslater.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450887770534" ignored="false" />
+    <file path="/GITranslater.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450887776338" ignored="false" />
+    <file path="/IITranslater.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450887782450" ignored="false" />
+    <file path="C:/hermes/btoe-dev-build/Installation/installer-upgrader/src/main/java/com/hp/itba/installer/action/AddOrReplaceAction.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450926319917" ignored="false" />
+    <file path="/AddOrReplaceAction.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450926208731" ignored="false" />
+    <file path="C:/hermes/btoe-dev-build/Installation/installer-upgrader/src/main/java/com/hp/itba/installer/action/ActionFactory.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450943301833" ignored="false" />
+    <file path="/ActionFactory.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450926559181" ignored="false" />
+    <file path="C:/hermes/btoe-dev-build/Installation/installer-app/src/main/resources/installer-flow-app.xml" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450926817364" ignored="false" />
+    <file path="C:/hermes/btoe-dev-build/Installation/installer-runtime/src/main/resources/installer-flow-precheck.xml" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450926817364" ignored="false" />
+    <file path="C:/hermes/btoe-dev-build/Installation/installer-upgrader/src/main/java/com/hp/itba/installer/action/ReplaceContentPackAction.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450943212713" ignored="false" />
+    <file path="/ReplaceContentPackAction.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450943181610" ignored="false" />
+    <file path="C:/hermes/btoe-dev-build/Installation/installer-upgrader/src/main/java/com/hp/itba/installer/action/ReplaceOrAddContentPackAction.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1451009757739" ignored="false" />
+    <file path="C:/hermes/btoe-dev-build/Installation/installer-upgrader/src/main/java/com/hp/itba/installer/util/XMLHandler.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1450943301833" ignored="false" />
+    <file path="/ReplaceOrAddContentPackAction.java" changelist="157f3a76-f19b-47a0-96d8-6917b36aa4a2" time="1451009755771" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +92,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -104,7 +129,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -117,57 +141,8 @@
       <file leaf-file-name="ColumnNameTranslaterHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/ColumnNameTranslaterHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="61" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pmms-parent.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pmms-parent.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="56" column="41" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="58" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="27" selection-start="1653" selection-end="1653" vertical-scroll-proportion="0.45188284">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractTranslater.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/AbstractTranslater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="28" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TranslaterFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/TranslaterFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="37" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -175,25 +150,7 @@
       <file leaf-file-name="CRDTranslater.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/CRDTranslater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="8" selection-start="196" selection-end="273" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CATranslater.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/CATranslater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="196" selection-end="273" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IITranslater.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/IITranslater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="23" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+            <state line="8" column="13" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -202,7 +159,70 @@
       <file leaf-file-name="GITranslater.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/GITranslater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="8" selection-start="192" selection-end="269" vertical-scroll-proportion="0.0">
+            <state line="8" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableHandler.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/table/TableHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="52" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.42827657">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IITranslater.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/IITranslater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TranslaterFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/TranslaterFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="17" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileReaderFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/reader/FileReaderFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="21" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateFileReader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/reader/TemplateFileReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="61" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractTranslater.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/AbstractTranslater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="40" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CATranslater.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/CATranslater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -226,22 +246,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/data/Column.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/data/MaterialTable.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/data/Row.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/test/java/com/njcets/tools/core/rule/TestRuleHandler.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/TemplateHandler.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/test/java/com/njcets/tools/core/MainTranslateColumn.java" />
         <option value="$PROJECT_DIR$/../pmms-core/src/test/java/com/njcets/tools/core/template/TestTemplateHandler.java" />
         <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/TemplateItem.java" />
         <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/ColumnNameTranslater.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/CATranslater.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/CRDTranslater.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/GITranslater.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/IITranslater.java" />
         <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/TranslaterFactory.java" />
-        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/AbstractTranslater.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/CATranslater.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/IITranslater.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/GITranslater.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/CRDTranslater.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/data/ColumnMetaData.java" />
         <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/ColumnNameTranslaterHandler.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/RuleHandler.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/Rule.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/table/TableHandler.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/AbstractTranslater.java" />
+        <option value="$PROJECT_DIR$/../pmms-core/src/test/java/com/njcets/tools/core/MainTranslateColumn.java" />
       </list>
     </option>
   </component>
@@ -308,8 +328,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -521,20 +541,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pmms-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pmms-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pmms-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -993,10 +999,11 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1154,19 +1161,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1193,6 +1187,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1241,10 +1248,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.MainTranslateColumn" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestRuleHandler" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestRuleHandler.testHandle" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestTableHandler" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestTableFilesHandler" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestTableFilesHandler" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestRuleHandler" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestRuleHandler.testHandle" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestTableHandler" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1293,19 +1300,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21291356" sideWeight="0.21850394" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.78149605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3153682" sideWeight="0.51082677" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48917323" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19423692" sideWeight="0.67027557" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.100430414" sideWeight="0.51082677" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1374,125 +1381,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/TemplateHandler.java">
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/rule/Rule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="35" selection-start="3557" selection-end="3557" vertical-scroll-proportion="0.0">
+        <state line="50" column="0" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/Template.java">
+    <entry file="file://$PROJECT_DIR$/../pmms-tools/src/test/java/com/njcets/maintenance/tool/handler/TestTableFilesHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="37" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+        <state line="23" column="0" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/test/java/com/njcets/tools/core/MainTranslateColumn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="30" selection-start="2752" selection-end="2752" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pmms-core/src/test/java/com/njcets/tools/core/template/TestTemplateHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="56" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/reader/AbstractFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="24" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
+        <state line="10" column="13" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/template/TemplateItem.java">
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/test/java/com/njcets/tools/core/table/TestTableHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="32" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#907#915#0" expanded="true" />
-          </folding>
+        <state line="10" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/test/java/com/njcets/tools/core/MainTranslateColumn.java">
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/test/java/com/njcets/tools/core/rule/TestRuleHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="51" selection-start="2532" selection-end="2532" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="23" column="52" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/CRDTranslater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="8" selection-start="196" selection-end="273" vertical-scroll-proportion="0.0">
+        <state line="8" column="13" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/GITranslater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="8" selection-start="192" selection-end="269" vertical-scroll-proportion="0.0">
+        <state line="8" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/IITranslater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/CATranslater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="196" selection-end="273" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/AbstractTranslater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
+        <state line="7" column="13" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/TranslaterFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="37" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="22" column="17" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/reader/FileReaderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="21" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/reader/TemplateFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="61" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/AbstractTranslater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="40" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/ColumnNameTranslaterHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="61" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pmms-parent.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="56" column="41" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/translater/CATranslater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="58" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0">
+        <state line="8" column="13" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/../pmms-core/src/main/java/com/njcets/tools/core/table/TableHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="27" selection-start="1653" selection-end="1653" vertical-scroll-proportion="0.45188284">
+        <state line="67" column="52" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.42827657">
           <folding />
         </state>
       </provider>

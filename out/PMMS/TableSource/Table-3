@@ -1,0 +1,13 @@
+nominal_piping_diameter
+outside_diameter
+end_preparation
+schedule_thickness
+pressure_rating
+stress_analysis_node_number
+face_to_center_distance
+weld_number
+weld_type
+gasket_gap
+stress_intensification_factor
+head_loss_factor
+inspection_number

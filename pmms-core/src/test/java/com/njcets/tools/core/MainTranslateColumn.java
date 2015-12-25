@@ -1,5 +1,6 @@
 package com.njcets.tools.core;
 
+import com.njcets.tools.core.data.ColumnMetaData;
 import com.njcets.tools.core.reader.AbstractFileReader;
 import com.njcets.tools.core.reader.FileReaderFactory;
 import com.njcets.tools.core.rule.Rule;
@@ -52,7 +53,7 @@ public class MainTranslateColumn {
         RuleHandler ruleHandler = new RuleHandler("C:\\Work\\github\\cets_nj\\out\\PMMS\\resources\\PMMS-Rules.xml");
         ruleHandler.parseRuleXML();
         Map<String, Rule> rules = ruleHandler.getRulesMap();
-//        System.out.println(rules.size());
+//        System.out.println("========== Rule's size is: " + rules.size());
 
         // read lines from .b file
         // TODO: input should be a directory not a regular file
@@ -70,6 +71,11 @@ public class MainTranslateColumn {
         columnNameTranslater.setTemplateHandler(templateHandler);
 
         columnNameTranslater.translate();
+        List<ColumnMetaData> columnsMetaDataList = columnNameTranslater.getColumnMetaDataList();
+//        System.out.println(columnsMetaDataList.size());
+        for(ColumnMetaData columnMetaData : columnsMetaDataList) {
+            System.out.println(columnMetaData.getColumnName());
+        }
 
         // generate MaterialTable Object
 

@@ -1,0 +1,12 @@
+<Tables>
+  <Table>
+    <TableName>Table34</TableName>
+    <columns>
+      <column>
+        <id>1</id>
+        <columnName>system_unique_no</columnName>
+        <columnType>integer</columnType>
+      <column>
+    </columns>
+  </Table>
+</Tables>

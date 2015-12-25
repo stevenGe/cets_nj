@@ -1,0 +1,2180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tables>
+    <Table>
+        <TableName>Table-1</TableName>
+        <TableColumns>
+            <Column index="1">
+                <ColumnName>component_occurrence_number</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="2">
+                <ColumnName>segment_occurrence_number</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="3">
+                <ColumnName>commodity_code</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="4">
+                <ColumnName>commodity_item_material_description</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="5">
+                <ColumnName>record_type</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="6">
+                <ColumnName>reserved_for_later_use</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="7">
+                <ColumnName>file_units</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="8">
+                <ColumnName>specialty_item_material_description</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="9">
+                <ColumnName>instrument_item_material_description</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="10">
+                <ColumnName>pipe_support_item_material_description</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="11">
+                <ColumnName>generated_item_material_description</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="12">
+                <ColumnName>dry_component_center_of_gravity_X_coordinate</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="13">
+                <ColumnName>dry_component_center_of_gravity_Y_coordinate</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="14">
+                <ColumnName>dry_component_center_of_gravity_Z_coordinate</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="15">
+                <ColumnName>wet_component_center_of_gravity_X_coordinate</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="16">
+                <ColumnName>wet_component_center_of_gravity_Y_coordinate</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="17">
+                <ColumnName>wet_component_center_of_gravity_Z_coordinate</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="18">
+                <ColumnName>model_name</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="19">
+                <ColumnName>area_name</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="20">
+                <ColumnName>partition_number</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+        </TableColumns>
+    </Table>
+    <Table>
+        <TableName>Table-2</TableName>
+        <TableColumns>
+            <Column index="1">
+                <ColumnName>piping_area</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="2">
+                <ColumnName>primary_line_ID</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="3">
+                <ColumnName>secondary_line_ID_1</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="4">
+                <ColumnName>secondary_line_ID_2</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="5">
+                <ColumnName>drawing_number</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="6">
+                <ColumnName>batch_reference</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="7">
+                <ColumnName>iso_file_name</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="8">
+                <ColumnName>model_status_code</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="9">
+                <ColumnName>model_revised_date</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="10">
+                <ColumnName>current_extraction_date</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="11">
+                <ColumnName>current_extraction_number</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="12">
+                <ColumnName>number_of_sheets_from_previous_extraction</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="13">
+                <ColumnName>date_MTO_neutral_file_was_generated</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="14">
+                <ColumnName>date_MTO_was_sent_for_Material_Control</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="15">
+                <ColumnName>current_revision_number</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="16">
+                <ColumnName>current_revision_block_revision_number</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="17">
+                <ColumnName>current_revision_block_By_initials</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="18">
+                <ColumnName>current_revision_block_Chk_initials</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="19">
+                <ColumnName>current_revision_block_Appv_initials</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="20">
+                <ColumnName>current_revision_block_issue_date</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="21">
+                <ColumnName>current_revision_block_extraction_number</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="22">
+                <ColumnName>current_revision_block_number_of_sheets</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="23">
+                <ColumnName>current_revision_block_description</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+        </TableColumns>
+    </Table>
+    <Table>
+        <TableName>Table-3</TableName>
+        <TableColumns>
+            <Column index="1">
+                <ColumnName>nominal_piping_diameter</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="2">
+                <ColumnName>outside_diameter</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="3">
+                <ColumnName>end_preparation</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="4">
+                <ColumnName>schedule_thickness</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="5">
+                <ColumnName>pressure_rating</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="6">
+                <ColumnName>stress_analysis_node_number</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="7">
+                <ColumnName>face_to_center_distance</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="8">
+                <ColumnName>weld_number</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="9">
+                <ColumnName>weld_type</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="10">
+                <ColumnName>gasket_gap</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="11">
+                <ColumnName>stress_intensification_factor</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="12">
+                <ColumnName>head_loss_factor</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="13">
+                <ColumnName>inspection_number</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+        </TableColumns>
+    </Table>
+    <Table>
+        <TableName>Table12</TableName>
+        <TableColumns>
+            <Column index="1">
+                <ColumnName>system_unique_no</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="2">
+                <ColumnName>line_number_label</ColumnName>
+                <ColumnType>character(40)</ColumnType>
+            </Column>
+            <Column index="3">
+                <ColumnName>line_id</ColumnName>
+                <ColumnType>character(24)</ColumnType>
+            </Column>
+            <Column index="4">
+                <ColumnName>unit_number</ColumnName>
+                <ColumnType>character(12)</ColumnType>
+            </Column>
+            <Column index="5">
+                <ColumnName>unit_code</ColumnName>
+                <ColumnType>character(3)</ColumnType>
+            </Column>
+            <Column index="6">
+                <ColumnName>module_no</ColumnName>
+                <ColumnType>character(16)</ColumnType>
+            </Column>
+            <Column index="7">
+                <ColumnName>package_system_no</ColumnName>
+                <ColumnType>character(12)</ColumnType>
+            </Column>
+            <Column index="8">
+                <ColumnName>train_number</ColumnName>
+                <ColumnType>character(2)</ColumnType>
+            </Column>
+            <Column index="9">
+                <ColumnName>fluid_code</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="10">
+                <ColumnName>line_sequence_no</ColumnName>
+                <ColumnType>character(16)</ColumnType>
+            </Column>
+            <Column index="11">
+                <ColumnName>nominal_piping_dia</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="12">
+                <ColumnName>piping_mater_class</ColumnName>
+                <ColumnType>character(16)</ColumnType>
+            </Column>
+            <Column index="13">
+                <ColumnName>gasket_separation</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="14">
+                <ColumnName>insulation_purpose</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="15">
+                <ColumnName>insulation_thick</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="16">
+                <ColumnName>insulation_density</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="17">
+                <ColumnName>heat_tracing_reqmt</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="18">
+                <ColumnName>heat_tracing_media</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="19">
+                <ColumnName>heat_tracing_temp</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="20">
+                <ColumnName>construction_stat</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="21">
+                <ColumnName>hold_status</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="22">
+                <ColumnName>approval_status</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="23">
+                <ColumnName>schedule_override</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="24">
+                <ColumnName>nor_oper_pres</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="25">
+                <ColumnName>nor_oper_temp</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="26">
+                <ColumnName>alt_oper_pres</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="27">
+                <ColumnName>alt_oper_temp</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="28">
+                <ColumnName>nor_dgn_pres</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="29">
+                <ColumnName>nor_dgn_temp</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="30">
+                <ColumnName>alt_dgn_pres</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="31">
+                <ColumnName>alt_dgn_temp</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="32">
+                <ColumnName>steam_outlet_temp</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="33">
+                <ColumnName>mater_of_construct</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="34">
+                <ColumnName>safety_class</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="35">
+                <ColumnName>design_standard</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="36">
+                <ColumnName>design_area_number</ColumnName>
+                <ColumnType>character(10)</ColumnType>
+            </Column>
+            <Column index="37">
+                <ColumnName>design_resp</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="38">
+                <ColumnName>construction_resp</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="39">
+                <ColumnName>supply_resp</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="40">
+                <ColumnName>coating_reqmts</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="41">
+                <ColumnName>cleaning_reqmts</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="42">
+                <ColumnName>fluid_category</ColumnName>
+                <ColumnType>character(4)</ColumnType>
+            </Column>
+            <Column index="43">
+                <ColumnName>nor_op_pres_units</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="44">
+                <ColumnName>nor_op_temp_units</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="45">
+                <ColumnName>alt_op_pres_units</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="46">
+                <ColumnName>alt_op_temp_units</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="47">
+                <ColumnName>nor_dgn_pres_units</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="48">
+                <ColumnName>nor_dgn_temp_units</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="49">
+                <ColumnName>alt_dgn_pres_units</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="50">
+                <ColumnName>alt_dgn_temp_units</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="51">
+                <ColumnName>steam_temp_units</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="52">
+                <ColumnName>stress_system_no</ColumnName>
+                <ColumnType>character(12)</ColumnType>
+            </Column>
+            <Column index="53">
+                <ColumnName>stress_reqmts</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="54">
+                <ColumnName>hyd_system_no</ColumnName>
+                <ColumnType>character(12)</ColumnType>
+            </Column>
+            <Column index="55">
+                <ColumnName>hyd_reqmts</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="56">
+                <ColumnName>specific_gravity_a</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="57">
+                <ColumnName>specific_gravity_b</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="58">
+                <ColumnName>specific_gravity_c</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="59">
+                <ColumnName>viscosity</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="60">
+                <ColumnName>density</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="61">
+                <ColumnName>spec_heat_ratio</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="62">
+                <ColumnName>sonic_velocity</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="63">
+                <ColumnName>surface_roughness</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="64">
+                <ColumnName>test_system_no</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="65">
+                <ColumnName>test_fluid</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="66">
+                <ColumnName>test_pressure</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="67">
+                <ColumnName>PID_id_part_a</ColumnName>
+                <ColumnType>character(4)</ColumnType>
+            </Column>
+            <Column index="68">
+                <ColumnName>PID_id_part_b</ColumnName>
+                <ColumnType>character(4)</ColumnType>
+            </Column>
+            <Column index="69">
+                <ColumnName>end_1_nozzle_id</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="70">
+                <ColumnName>end_2_nozzle_id</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="71">
+                <ColumnName>alpha_descript_id</ColumnName>
+                <ColumnType>character(12)</ColumnType>
+            </Column>
+            <Column index="72">
+                <ColumnName>standard_note_no</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="73">
+                <ColumnName>pid_index_no</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="74">
+                <ColumnName>color_code</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="75">
+                <ColumnName>inspection_iso_id</ColumnName>
+                <ColumnType>character(24)</ColumnType>
+            </Column>
+            <Column index="76">
+                <ColumnName>index_to_pi_dwg</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="77">
+                <ColumnName>weld_id</ColumnName>
+                <ColumnType>character(80)</ColumnType>
+            </Column>
+            <Column index="78">
+                <ColumnName>sppid_piperun_guid</ColumnName>
+                <ColumnType>character(32)</ColumnType>
+            </Column>
+            <Column index="79">
+                <ColumnName>sppid_drawing_guid</ColumnName>
+                <ColumnType>character(32)</ColumnType>
+            </Column>
+        </TableColumns>
+    </Table>
+    <Table>
+        <TableName>Table202</TableName>
+        <TableColumns>
+            <Column index="1">
+                <ColumnName>system_unique_no</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="2">
+                <ColumnName>piping_mater_class</ColumnName>
+                <ColumnType>character(16)</ColumnType>
+            </Column>
+            <Column index="3">
+                <ColumnName>commodity_name</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="4">
+                <ColumnName>option_code</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="5">
+                <ColumnName>maximum_temp</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="6">
+                <ColumnName>gcp_from_nom_diam</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="7">
+                <ColumnName>gcp_to_nom_diam</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="8">
+                <ColumnName>gcp_end_prep</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="9">
+                <ColumnName>gcp_rating</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="10">
+                <ColumnName>gcp_sch_thk</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="11">
+                <ColumnName>gcp_table_suffix</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="12">
+                <ColumnName>rcp_from_nom_diam</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="13">
+                <ColumnName>rcp_to_nom_diam</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="14">
+                <ColumnName>rcp_end_prep</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="15">
+                <ColumnName>rcp_rating</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="16">
+                <ColumnName>rcp_sch_thk</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="17">
+                <ColumnName>rcp_table_suffix</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="18">
+                <ColumnName>commodity_code</ColumnName>
+                <ColumnType>character(16)</ColumnType>
+            </Column>
+            <Column index="19">
+                <ColumnName>model_code</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="20">
+                <ColumnName>PDS_sort_code</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="21">
+                <ColumnName>modifier</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="22">
+                <ColumnName>geometric_standard</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="23">
+                <ColumnName>weight_code</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="24">
+                <ColumnName>fabrication_cat</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="25">
+                <ColumnName>materials_grade</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="26">
+                <ColumnName>standard_note_no_a</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="27">
+                <ColumnName>standard_note_no_b</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="28">
+                <ColumnName>input_form_type</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+        </TableColumns>
+    </Table>
+    <Table>
+        <TableName>Table34</TableName>
+        <TableColumns>
+            <Column index="1">
+                <ColumnName>system_unique_no</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="2">
+                <ColumnName>piping_comp_no</ColumnName>
+                <ColumnType>character(20)</ColumnType>
+            </Column>
+            <Column index="3">
+                <ColumnName>commodity_name</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="4">
+                <ColumnName>model_code</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="5">
+                <ColumnName>option_code</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="6">
+                <ColumnName>maximum_temp</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="7">
+                <ColumnName>sched_thick_basis</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="8">
+                <ColumnName>commodity_code</ColumnName>
+                <ColumnType>character(16)</ColumnType>
+            </Column>
+            <Column index="9">
+                <ColumnName>MTO_requirements</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="10">
+                <ColumnName>fabrication_cat</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="11">
+                <ColumnName>source_of_data</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="12">
+                <ColumnName>PDS_sort_code</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="13">
+                <ColumnName>physical_data_id</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="14">
+                <ColumnName>geometric_standard</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="15">
+                <ColumnName>weight_code</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="16">
+                <ColumnName>table_suffix_green</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="17">
+                <ColumnName>table_suffix_red</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="18">
+                <ColumnName>materials_grade</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="19">
+                <ColumnName>bend_radius</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="20">
+                <ColumnName>bend_angle</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="21">
+                <ColumnName>face_to_face_dim</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="22">
+                <ColumnName>dimension_a</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="23">
+                <ColumnName>dimension_b</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="24">
+                <ColumnName>dimension_c</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="25">
+                <ColumnName>surface_area</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="26">
+                <ColumnName>empty_weight</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="27">
+                <ColumnName>water_weight</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="28">
+                <ColumnName>operator_weight</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="29">
+                <ColumnName>operator_sym_name</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="30">
+                <ColumnName>chain_operator_no</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="31">
+                <ColumnName>opening_action</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="32">
+                <ColumnName>construction_stat</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="33">
+                <ColumnName>hold_status</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="34">
+                <ColumnName>heat_tracing_reqmt</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="35">
+                <ColumnName>heat_tracing_media</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="36">
+                <ColumnName>heat_tracing_temp</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="37">
+                <ColumnName>iso_dwg_index_no</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="38">
+                <ColumnName>isometric_sheet_no</ColumnName>
+                <ColumnType>character(2)</ColumnType>
+            </Column>
+            <Column index="39">
+                <ColumnName>piece_mark_no</ColumnName>
+                <ColumnType>character(60)</ColumnType>
+            </Column>
+            <Column index="40">
+                <ColumnName>color_code</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="41">
+                <ColumnName>stress_node_no</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="42">
+                <ColumnName>stress_intens_fact</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="43">
+                <ColumnName>head_loss_factor</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="44">
+                <ColumnName>piping_assembly</ColumnName>
+                <ColumnType>character(12)</ColumnType>
+            </Column>
+            <Column index="45">
+                <ColumnName>component_group_no</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="46">
+                <ColumnName>remarks</ColumnName>
+                <ColumnType>character(50)</ColumnType>
+            </Column>
+            <Column index="47">
+                <ColumnName>standard_note_no_a</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="48">
+                <ColumnName>standard_note_no_b</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="49">
+                <ColumnName>cp_1_nom_pipe_diam</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="50">
+                <ColumnName>cp_1_outside_diam</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="51">
+                <ColumnName>cp_1_end_prep</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="52">
+                <ColumnName>cp_1_sch_thk</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="53">
+                <ColumnName>cp_1_rating</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="54">
+                <ColumnName>cp_1_face_to_ctr</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="55">
+                <ColumnName>cp_1_weld_no</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="56">
+                <ColumnName>cp_1_weld_type</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="57">
+                <ColumnName>cp_1_gasket_gap</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="58">
+                <ColumnName>cp_1_gasket_option</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="59">
+                <ColumnName>cp_1_stress_node</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="60">
+                <ColumnName>cp_1_stress_factor</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="61">
+                <ColumnName>cp_1_head_loss</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="62">
+                <ColumnName>cp_2_nom_pipe_diam</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="63">
+                <ColumnName>cp_2_outside_diam</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="64">
+                <ColumnName>cp_2_end_prep</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="65">
+                <ColumnName>cp_2_sch_thk</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="66">
+                <ColumnName>cp_2_rating</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="67">
+                <ColumnName>cp_2_face_to_ctr</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="68">
+                <ColumnName>cp_2_weld_no</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="69">
+                <ColumnName>cp_2_weld_type</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="70">
+                <ColumnName>cp_2_gasket_gap</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="71">
+                <ColumnName>cp_2_gasket_option</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="72">
+                <ColumnName>cp_2_stress_node</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="73">
+                <ColumnName>cp_2_stress_factor</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="74">
+                <ColumnName>cp_2_head_loss</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="75">
+                <ColumnName>cp_3_nom_pipe_diam</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="76">
+                <ColumnName>cp_3_outside_diam</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="77">
+                <ColumnName>cp_3_end_prep</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="78">
+                <ColumnName>cp_3_sch_thk</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="79">
+                <ColumnName>cp_3_rating</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="80">
+                <ColumnName>cp_3_face_to_ctr</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="81">
+                <ColumnName>cp_3_weld_no</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="82">
+                <ColumnName>cp_3_weld_type</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="83">
+                <ColumnName>cp_3_gasket_gap</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="84">
+                <ColumnName>cp_3_gasket_option</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="85">
+                <ColumnName>cp_3_stress_node</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="86">
+                <ColumnName>cp_3_stress_factor</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="87">
+                <ColumnName>cp_3_head_loss</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="88">
+                <ColumnName>cp_4_nom_pipe_diam</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="89">
+                <ColumnName>cp_4_outside_diam</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="90">
+                <ColumnName>cp_4_end_prep</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="91">
+                <ColumnName>cp_4_sch_thk</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="92">
+                <ColumnName>cp_4_rating</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="93">
+                <ColumnName>cp_4_face_to_ctr</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="94">
+                <ColumnName>cp_4_weld_no</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="95">
+                <ColumnName>cp_4_weld_type</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="96">
+                <ColumnName>cp_4_gasket_gap</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="97">
+                <ColumnName>cp_4_gasket_option</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="98">
+                <ColumnName>cp_4_stress_node</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="99">
+                <ColumnName>cp_4_stress_factor</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="100">
+                <ColumnName>cp_4_head_loss</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="101">
+                <ColumnName>cp_5_nom_pipe_diam</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="102">
+                <ColumnName>cp_5_outside_diam</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="103">
+                <ColumnName>cp_5_end_prep</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="104">
+                <ColumnName>cp_5_sch_thk</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="105">
+                <ColumnName>cp_5_rating</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="106">
+                <ColumnName>cp_5_face_to_ctr</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="107">
+                <ColumnName>cp_5_weld_no</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="108">
+                <ColumnName>cp_5_weld_type</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="109">
+                <ColumnName>cp_5_gasket_gap</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="110">
+                <ColumnName>cp_5_gasket_option</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="111">
+                <ColumnName>cp_5_stress_node</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="112">
+                <ColumnName>cp_5_stress_factor</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="113">
+                <ColumnName>cp_5_head_loss</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="114">
+                <ColumnName>unique_name</ColumnName>
+                <ColumnType>character(12)</ColumnType>
+            </Column>
+            <Column index="115">
+                <ColumnName>vlv_operator_dim_a</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="116">
+                <ColumnName>vlv_operator_dim_b</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="117">
+                <ColumnName>vlv_operator_dim_c</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="118">
+                <ColumnName>vlv_operator_dim_d</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="119">
+                <ColumnName>last_placed_date</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="120">
+                <ColumnName>generic_comp_no</ColumnName>
+                <ColumnType>character(20)</ColumnType>
+            </Column>
+            <Column index="121">
+                <ColumnName>inspection_key</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="122">
+                <ColumnName>cp_1_inspect_key</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="123">
+                <ColumnName>cp_2_inspect_key</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="124">
+                <ColumnName>cp_3_inspect_key</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="125">
+                <ColumnName>cp_4_inspect_key</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="126">
+                <ColumnName>cp_5_inspect_key</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+        </TableColumns>
+    </Table>
+    <Table>
+        <TableName>Table50</TableName>
+        <TableColumns>
+            <Column index="1">
+                <ColumnName>system_unique_no</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="2">
+                <ColumnName>piping_comp_no</ColumnName>
+                <ColumnType>character(20)</ColumnType>
+            </Column>
+            <Column index="3">
+                <ColumnName>commodity_name</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="4">
+                <ColumnName>model_code</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="5">
+                <ColumnName>option_code</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="6">
+                <ColumnName>maximum_temp</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="7">
+                <ColumnName>nominal_piping_dia</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="8">
+                <ColumnName>outside_diameter</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="9">
+                <ColumnName>schedule_thickness</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="10">
+                <ColumnName>sched_thick_basis</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="11">
+                <ColumnName>rating</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="12">
+                <ColumnName>commodity_code</ColumnName>
+                <ColumnType>character(16)</ColumnType>
+            </Column>
+            <Column index="13">
+                <ColumnName>MTO_requirements</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="14">
+                <ColumnName>fabrication_cat</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="15">
+                <ColumnName>source_of_data</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="16">
+                <ColumnName>PDS_sort_code</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="17">
+                <ColumnName>geometric_standard</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="18">
+                <ColumnName>weight_code</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="19">
+                <ColumnName>table_suffix_green</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="20">
+                <ColumnName>table_suffix_red</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="21">
+                <ColumnName>materials_grade</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="22">
+                <ColumnName>pipe_length</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="23">
+                <ColumnName>surface_area</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="24">
+                <ColumnName>empty_weight</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="25">
+                <ColumnName>water_weight</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="26">
+                <ColumnName>cold_spring_length</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="27">
+                <ColumnName>construction_stat</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="28">
+                <ColumnName>hold_status</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="29">
+                <ColumnName>heat_tracing_reqmt</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="30">
+                <ColumnName>heat_tracing_media</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="31">
+                <ColumnName>heat_tracing_temp</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="32">
+                <ColumnName>iso_dwg_index_no</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="33">
+                <ColumnName>isometric_sheet_no</ColumnName>
+                <ColumnType>character(2)</ColumnType>
+            </Column>
+            <Column index="34">
+                <ColumnName>piece_mark_no</ColumnName>
+                <ColumnType>character(60)</ColumnType>
+            </Column>
+            <Column index="35">
+                <ColumnName>color_code</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="36">
+                <ColumnName>piping_assembly</ColumnName>
+                <ColumnType>character(12)</ColumnType>
+            </Column>
+            <Column index="37">
+                <ColumnName>component_group_no</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="38">
+                <ColumnName>remarks</ColumnName>
+                <ColumnType>character(50)</ColumnType>
+            </Column>
+            <Column index="39">
+                <ColumnName>standard_note_no_a</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="40">
+                <ColumnName>standard_note_no_b</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="41">
+                <ColumnName>end_1_end_prep</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="42">
+                <ColumnName>end_1_weld_no</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="43">
+                <ColumnName>end_1_weld_type</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="44">
+                <ColumnName>end_1_gasket_gap</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="45">
+                <ColumnName>end_1_gasket_opt</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="46">
+                <ColumnName>end_1_stress_node</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="47">
+                <ColumnName>end_1_stres_int</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="48">
+                <ColumnName>end_1_head_loss</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="49">
+                <ColumnName>end_2_end_prep</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="50">
+                <ColumnName>end_2_weld_no</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="51">
+                <ColumnName>end_2_weld_type</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="52">
+                <ColumnName>end_2_gasket_gap</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="53">
+                <ColumnName>end_2_gasket_opt</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="54">
+                <ColumnName>end_2_stress_node</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="55">
+                <ColumnName>end_2_stres_int</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="56">
+                <ColumnName>end_2_head_loss</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="57">
+                <ColumnName>unique_name</ColumnName>
+                <ColumnType>character(12)</ColumnType>
+            </Column>
+            <Column index="58">
+                <ColumnName>last_placed_date</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="59">
+                <ColumnName>inspection_key</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="60">
+                <ColumnName>end_1_inspect_key</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="61">
+                <ColumnName>end_2_inspect_key</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+        </TableColumns>
+    </Table>
+    <Table>
+        <TableName>Table67</TableName>
+        <TableColumns>
+            <Column index="1">
+                <ColumnName>system_unique_no</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="2">
+                <ColumnName>instrument_comp_no</ColumnName>
+                <ColumnType>character(20)</ColumnType>
+            </Column>
+            <Column index="3">
+                <ColumnName>model_code</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="4">
+                <ColumnName>option_code</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="5">
+                <ColumnName>sched_thick_basis</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="6">
+                <ColumnName>MTO_requirements</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="7">
+                <ColumnName>fabrication_cat</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="8">
+                <ColumnName>source_of_data</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="9">
+                <ColumnName>PDS_sort_code</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="10">
+                <ColumnName>physical_data_id</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="11">
+                <ColumnName>geometric_standard</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="12">
+                <ColumnName>weight_code</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="13">
+                <ColumnName>table_suffix_green</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="14">
+                <ColumnName>table_suffix_red</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="15">
+                <ColumnName>materials_grade</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="16">
+                <ColumnName>face_to_face_dim</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="17">
+                <ColumnName>dimension_a</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="18">
+                <ColumnName>dimension_b</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="19">
+                <ColumnName>dimension_c</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="20">
+                <ColumnName>surface_area</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="21">
+                <ColumnName>empty_weight</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="22">
+                <ColumnName>water_weight</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="23">
+                <ColumnName>operator_weight</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="24">
+                <ColumnName>operator_type</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="25">
+                <ColumnName>operator_sym_name</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="26">
+                <ColumnName>chain_operator_no</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="27">
+                <ColumnName>chain_length</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="28">
+                <ColumnName>opening_action</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="29">
+                <ColumnName>construction_stat</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="30">
+                <ColumnName>hold_status</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="31">
+                <ColumnName>design_resp</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="32">
+                <ColumnName>construction_resp</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="33">
+                <ColumnName>heat_tracing_reqmt</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="34">
+                <ColumnName>heat_tracing_media</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="35">
+                <ColumnName>heat_tracing_temp</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="36">
+                <ColumnName>insulation_purpose</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="37">
+                <ColumnName>insulation_thick</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="38">
+                <ColumnName>insulation_density</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="39">
+                <ColumnName>cleaning_reqmts</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="40">
+                <ColumnName>safety_class</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="41">
+                <ColumnName>module_no</ColumnName>
+                <ColumnType>character(16)</ColumnType>
+            </Column>
+            <Column index="42">
+                <ColumnName>package_system_no</ColumnName>
+                <ColumnType>character(12)</ColumnType>
+            </Column>
+            <Column index="43">
+                <ColumnName>iso_dwg_index_no</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="44">
+                <ColumnName>isometric_sheet_no</ColumnName>
+                <ColumnType>character(2)</ColumnType>
+            </Column>
+            <Column index="45">
+                <ColumnName>piece_mark_no</ColumnName>
+                <ColumnType>character(60)</ColumnType>
+            </Column>
+            <Column index="46">
+                <ColumnName>color_code</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="47">
+                <ColumnName>stress_node_no</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="48">
+                <ColumnName>stress_intens_fact</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="49">
+                <ColumnName>head_loss_factor</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="50">
+                <ColumnName>piping_assembly</ColumnName>
+                <ColumnType>character(12)</ColumnType>
+            </Column>
+            <Column index="51">
+                <ColumnName>component_group_no</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="52">
+                <ColumnName>remarks</ColumnName>
+                <ColumnType>character(50)</ColumnType>
+            </Column>
+            <Column index="53">
+                <ColumnName>standard_note_no_a</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="54">
+                <ColumnName>standard_note_no_b</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="55">
+                <ColumnName>cp_1_nom_pipe_diam</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="56">
+                <ColumnName>cp_1_outside_diam</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="57">
+                <ColumnName>cp_1_end_prep</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="58">
+                <ColumnName>cp_1_sch_thk</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="59">
+                <ColumnName>cp_1_rating</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="60">
+                <ColumnName>cp_1_face_to_ctr</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="61">
+                <ColumnName>cp_1_weld_no</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="62">
+                <ColumnName>cp_1_weld_type</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="63">
+                <ColumnName>cp_1_gasket_gap</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="64">
+                <ColumnName>cp_1_gasket_option</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="65">
+                <ColumnName>cp_1_stress_node</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="66">
+                <ColumnName>cp_1_stress_factor</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="67">
+                <ColumnName>cp_1_head_loss</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="68">
+                <ColumnName>cp_2_nom_pipe_diam</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="69">
+                <ColumnName>cp_2_outside_diam</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="70">
+                <ColumnName>cp_2_end_prep</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="71">
+                <ColumnName>cp_2_sch_thk</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="72">
+                <ColumnName>cp_2_rating</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="73">
+                <ColumnName>cp_2_face_to_ctr</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="74">
+                <ColumnName>cp_2_weld_no</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="75">
+                <ColumnName>cp_2_weld_type</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="76">
+                <ColumnName>cp_2_gasket_gap</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="77">
+                <ColumnName>cp_2_gasket_option</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="78">
+                <ColumnName>cp_2_stress_node</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="79">
+                <ColumnName>cp_2_stress_factor</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="80">
+                <ColumnName>cp_2_head_loss</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="81">
+                <ColumnName>cp_3_nom_pipe_diam</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="82">
+                <ColumnName>cp_3_outside_diam</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="83">
+                <ColumnName>cp_3_end_prep</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="84">
+                <ColumnName>cp_3_sch_thk</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="85">
+                <ColumnName>cp_3_rating</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="86">
+                <ColumnName>cp_3_face_to_ctr</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="87">
+                <ColumnName>cp_3_weld_no</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="88">
+                <ColumnName>cp_3_weld_type</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="89">
+                <ColumnName>cp_3_gasket_gap</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="90">
+                <ColumnName>cp_3_gasket_option</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="91">
+                <ColumnName>cp_3_stress_node</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="92">
+                <ColumnName>cp_3_stress_factor</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="93">
+                <ColumnName>cp_3_head_loss</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="94">
+                <ColumnName>cp_4_nom_pipe_diam</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="95">
+                <ColumnName>cp_4_outside_diam</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="96">
+                <ColumnName>cp_4_end_prep</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="97">
+                <ColumnName>cp_4_sch_thk</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="98">
+                <ColumnName>cp_4_rating</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="99">
+                <ColumnName>cp_4_face_to_ctr</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="100">
+                <ColumnName>cp_4_weld_no</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="101">
+                <ColumnName>cp_4_weld_type</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="102">
+                <ColumnName>cp_4_gasket_gap</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="103">
+                <ColumnName>cp_4_gasket_option</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="104">
+                <ColumnName>cp_4_stress_node</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="105">
+                <ColumnName>cp_4_stress_factor</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="106">
+                <ColumnName>cp_4_head_loss</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="107">
+                <ColumnName>cp_5_nom_pipe_diam</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="108">
+                <ColumnName>cp_5_outside_diam</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="109">
+                <ColumnName>cp_5_end_prep</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="110">
+                <ColumnName>cp_5_sch_thk</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="111">
+                <ColumnName>cp_5_rating</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="112">
+                <ColumnName>cp_5_face_to_ctr</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="113">
+                <ColumnName>cp_5_weld_no</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="114">
+                <ColumnName>cp_5_weld_type</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="115">
+                <ColumnName>cp_5_gasket_gap</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="116">
+                <ColumnName>cp_5_gasket_option</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="117">
+                <ColumnName>cp_5_stress_node</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="118">
+                <ColumnName>cp_5_stress_factor</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="119">
+                <ColumnName>cp_5_head_loss</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="120">
+                <ColumnName>unique_name</ColumnName>
+                <ColumnType>character(12)</ColumnType>
+            </Column>
+            <Column index="121">
+                <ColumnName>bend_angle</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="122">
+                <ColumnName>vlv_operator_dim_a</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="123">
+                <ColumnName>vlv_operator_dim_b</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="124">
+                <ColumnName>vlv_operator_dim_c</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="125">
+                <ColumnName>vlv_operator_dim_d</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="126">
+                <ColumnName>last_placed_date</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="127">
+                <ColumnName>generic_comp_no</ColumnName>
+                <ColumnType>character(20)</ColumnType>
+            </Column>
+            <Column index="128">
+                <ColumnName>inspection_key</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="129">
+                <ColumnName>cp_1_inspect_key</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="130">
+                <ColumnName>cp_2_inspect_key</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="131">
+                <ColumnName>cp_3_inspect_key</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="132">
+                <ColumnName>cp_4_inspect_key</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="133">
+                <ColumnName>cp_5_inspect_key</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+        </TableColumns>
+    </Table>
+    <Table>
+        <TableName>Table80</TableName>
+        <TableColumns>
+            <Column index="1">
+                <ColumnName>system_unique_no</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="2">
+                <ColumnName>pipe_support_no</ColumnName>
+                <ColumnType>character(20)</ColumnType>
+            </Column>
+            <Column index="3">
+                <ColumnName>model_code_phy</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="4">
+                <ColumnName>model_code_log</ColumnName>
+                <ColumnType>character(6)</ColumnType>
+            </Column>
+            <Column index="5">
+                <ColumnName>iso_support_type_a</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="6">
+                <ColumnName>iso_support_type_b</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="7">
+                <ColumnName>iso_support_type_c</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="8">
+                <ColumnName>iso_support_type_d</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="9">
+                <ColumnName>details_for_shop</ColumnName>
+                <ColumnType>character(50)</ColumnType>
+            </Column>
+            <Column index="10">
+                <ColumnName>details_for_field</ColumnName>
+                <ColumnType>character(50)</ColumnType>
+            </Column>
+            <Column index="11">
+                <ColumnName>fabrication_orient</ColumnName>
+                <ColumnType>character(20)</ColumnType>
+            </Column>
+            <Column index="12">
+                <ColumnName>commodity_code</ColumnName>
+                <ColumnType>character(16)</ColumnType>
+            </Column>
+            <Column index="13">
+                <ColumnName>MTO_requirements</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="14">
+                <ColumnName>fabrication_cat</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="15">
+                <ColumnName>weight</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="16">
+                <ColumnName>construction_stat</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="17">
+                <ColumnName>hold_status</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="18">
+                <ColumnName>standard_note_no</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="19">
+                <ColumnName>iso_dwg_index_no</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="20">
+                <ColumnName>isometric_sheet_no</ColumnName>
+                <ColumnType>character(2)</ColumnType>
+            </Column>
+            <Column index="21">
+                <ColumnName>piece_mark_no</ColumnName>
+                <ColumnType>character(60)</ColumnType>
+            </Column>
+            <Column index="22">
+                <ColumnName>color_code</ColumnName>
+                <ColumnType>character(8)</ColumnType>
+            </Column>
+            <Column index="23">
+                <ColumnName>isometric_dim_a</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="24">
+                <ColumnName>isometric_dim_b</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="25">
+                <ColumnName>isometric_dim_c</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="26">
+                <ColumnName>isometric_dim_d</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="27">
+                <ColumnName>isometric_dim_e</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="28">
+                <ColumnName>trans_rigidity_x</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="29">
+                <ColumnName>trans_rigidity_y</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="30">
+                <ColumnName>trans_rigidity_z</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="31">
+                <ColumnName>rot_rigidity_x</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="32">
+                <ColumnName>rot_rigidity_y</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="33">
+                <ColumnName>rot_rigidity_z</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="34">
+                <ColumnName>spring_gap_length</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="35">
+                <ColumnName>sping_gap_direct</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="36">
+                <ColumnName>number_of_springs</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="37">
+                <ColumnName>last_placed_date</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="38">
+                <ColumnName>inspection_key</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="39">
+                <ColumnName>mark_number</ColumnName>
+                <ColumnType>character(80)</ColumnType>
+            </Column>
+            <Column index="40">
+                <ColumnName>group_id</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="41">
+                <ColumnName>gang_id</ColumnName>
+                <ColumnType>integer</ColumnType>
+            </Column>
+            <Column index="42">
+                <ColumnName>material_grade</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="43">
+                <ColumnName>weld_code</ColumnName>
+                <ColumnType>short</ColumnType>
+            </Column>
+            <Column index="44">
+                <ColumnName>material_index</ColumnName>
+                <ColumnType>character(16)</ColumnType>
+            </Column>
+            <Column index="45">
+                <ColumnName>operating_load</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="46">
+                <ColumnName>installed_load</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="47">
+                <ColumnName>hydrostatic_load</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="48">
+                <ColumnName>total_movement_1</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="49">
+                <ColumnName>total_movement_2</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+            <Column index="50">
+                <ColumnName>rod_diameter</ColumnName>
+                <ColumnType>double</ColumnType>
+            </Column>
+        </TableColumns>
+    </Table>
+</Tables>

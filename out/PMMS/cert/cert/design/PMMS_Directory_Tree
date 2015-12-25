@@ -1,0 +1,17 @@
+PMMS
+  |-- bin
+
+  |-- lib
+
+  |-- logs
+
+  |-- config
+
+  |-- jdk(jre)
+
+  |-- db(sqlite)
+
+  |-- resources
+        |-- Tables.xml
+
+        |-- rules.xml

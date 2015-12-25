@@ -1,0 +1,9 @@
+commandline for PMMS:
+CertAdmin.bat
+CertAdmin.sh
+Options:
+  (1) -import-template <template(s)-directory>, --import-template, "import source template to db"
+  (2) -list-templates, --list-tempaltes, "list current existed templates"
+  (3) -delete-template <template-id>, --delete-template, "delete a specified template"
+  (4) -import-data <template-id> <data-directory>, --import-data, "import data files by existed template"
+  (5) -export-data <constraints-format-file> <export-xls-file>, --export-data, "export data to specified xls file"

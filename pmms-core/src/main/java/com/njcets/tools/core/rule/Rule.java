@@ -54,7 +54,7 @@ public class Rule {
             Element onePairElement = pairElements.get(i);
             String onePairType = onePairElement.getAttributeValue("type");
 
-            if(onePairType != null ) {
+            if(onePairType == null ) {
                 String onePairName = onePairElement.getAttributeValue("index");
                 Elements KVElements = onePairElement.getChildElements();
 

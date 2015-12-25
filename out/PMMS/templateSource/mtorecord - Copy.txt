@@ -1,0 +1,4 @@
+COMPONENT_ATTRIBUTES
+1
+ 0,   1,  0,   1,  0,   1,  0,   1,  0,  0, 1,  75, 10,  0    ! first size
+

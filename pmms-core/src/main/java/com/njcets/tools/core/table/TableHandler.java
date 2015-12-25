@@ -53,7 +53,9 @@ public class TableHandler {
         TableColumn result = new TableColumn();
 
         if(this.tables != null) {
+            System.out.println("==========tableName is: " + tableName);
             if(tables.containsKey(tableName)) {
+                System.out.println("==========tableName contains key");
                 Table table = tables.get(tableName);
                 result = table.getColumnByIndex(index);
             } else {
