@@ -8,13 +8,16 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
+import com.njcets.tools.core.conf.EnvManager;
 import nu.xom.*;
+import org.apache.log4j.Logger;
 
 /**
  * @author gexinl
  * This Handler handle the Rule XML file
  */
 public class RuleHandler {
+    private Logger logger = Logger.getLogger(RuleHandler.class);
 
     private String ruleXMLFilePath;
 
@@ -25,7 +28,13 @@ public class RuleHandler {
         this.rulesMap = new HashMap<String, Rule>();
     }
 
+    public RuleHandler() {
+        this.ruleXMLFilePath = EnvManager.getInstance().getPMMS_HOME() + File.separator + "resources" + File.separator + "PMMS-Rules.xml";
+        this.rulesMap = new HashMap<String, Rule>();
+    }
+
     public void parseRuleXML() {
+        logger.info("Start to parse Rule XML file: " + ruleXMLFilePath);
         Document doc;
 
         try {
@@ -50,6 +59,7 @@ public class RuleHandler {
             ex.printStackTrace();
             System.err.println("Could not open Rules.xml file.");
         }
+        logger.info("End to parse Rule XML file: " + ruleXMLFilePath);
     }
 
     public String getRuleXMLFilePath() {

@@ -1,10 +1,12 @@
 package com.njcets.tools.core.table;
 
+import com.njcets.tools.core.conf.EnvManager;
 import nu.xom.*;
 
 import java.io.File;
 import java.io.IOException;
 import nu.xom.Builder;
+import org.apache.log4j.Logger;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,16 +15,24 @@ import java.util.Map;
  * @author gexinl
  */
 public class TableHandler {
+    private Logger logger = Logger.getLogger(TableHandler.class);
+
     private String tableXMLFilePath;
 
     private Map<String, Table> tables;           // tableName-Table
 
     public TableHandler(String tableXMLFilePath) {
-        this.tableXMLFilePath = tableXMLFilePath;
+        this.tableXMLFilePath = this.tableXMLFilePath;
+        this.tables = new HashMap<String, Table>();
+    }
+
+    public TableHandler() {
+        this.tableXMLFilePath = EnvManager.getInstance().getPMMS_HOME() + File.separator + "resources" + File.separator + "Tables.xml";
         this.tables = new HashMap<String, Table>();
     }
 
     public void parseTableXML() {
+        logger.info("Start to parse Table XML file: " + tableXMLFilePath);
         Document doc;
         try {
             Builder parser = new Builder();
@@ -46,6 +56,7 @@ public class TableHandler {
             ex.printStackTrace();
             System.err.println("Could not open Table.xml file.");
         }
+        logger.info("End to parse Table XML file: " + tableXMLFilePath);
     }
 
     // index start from 1
@@ -53,9 +64,9 @@ public class TableHandler {
         TableColumn result = new TableColumn();
 
         if(this.tables != null) {
-            System.out.println("==========tableName is: " + tableName);
+
             if(tables.containsKey(tableName)) {
-                System.out.println("==========tableName contains key");
+
                 Table table = tables.get(tableName);
                 result = table.getColumnByIndex(index);
             } else {

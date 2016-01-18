@@ -7,6 +7,8 @@ import com.njcets.tools.core.settings.SettingManagement;
  * @author gexinl
  */
 
+@Deprecated
+
 public class DBContext {
 
     private DBType dbType;

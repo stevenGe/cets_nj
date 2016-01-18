@@ -19,8 +19,19 @@ public class Row {
         return  values.get(index);
     }
 
+    public void setValueByColumnIndex(int index, String value) {
+        this.values.put(index, value);
+    }
+
     public int length() {
         return values.size();
+    }
+
+    public void printRow() {
+        for(int i = 0; i < values.size(); i++) {
+            String oneValue = values.get(i);
+            System.out.print(oneValue + "\t\t\t");
+        }
     }
 
 }

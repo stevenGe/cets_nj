@@ -19,27 +19,27 @@
 		<columnName>
 			<pairs>
 				<pair index="1,2">
-					<key value="0">Table-3</key>
+					<key value="0">NOT_RELEVANT</key>
 					<key value="12">Table12</key>
 					<key value="34">Table34</key>
 				</pair>
 				<pair index="3,4">
-					<key value="0">Table-3</key>
+					<key value="0">NOT_RELEVANT</key>
 					<key value="12">Table12</key>
 					<key value="34">Table34</key>
 				</pair>
 				<pair index="5,6">
-					<key value="0">Table-3</key>
+					<key value="0">NOT_RELEVANT</key>
 					<key value="12">Table12</key>
 					<key value="50">Table50</key>
 				</pair>
 				<pair index="7,8">
-					<key value="0">Table-3</key>
+					<key value="0">NOT_RELEVANT</key>
 					<key value="12">Table67</key>
 					<key value="67">Table67</key>
 				</pair>
 				<pair index="9,10">
-					<key value="0">Table-3</key>
+					<key value="0">NOT_RELEVANT</key>
 					<key value="12">Table80</key>
 					<key value="80">Table80</key>
 				</pair>
@@ -93,31 +93,31 @@
 		<sequence>14</sequence>
 	</rule>
 	<rule name="GENERATED_ITEMS">
-		<columnNumber>14</columnNumber>
+		<columnNumber>15</columnNumber>
 		<columnName>
 			<pairs>
 				<pair index="1,2">
-					<key value="0">Table-3</key>
+					<key value="0">NOT_RELEVANT</key>
 					<key value="12">Table12</key>
 					<key value="34">Table34</key>
 				</pair>
 				<pair index="3,4">
-					<key value="0">Table-3</key>
+					<key value="0">NOT_RELEVANT</key>
 					<key value="12">Table12</key>
 					<key value="34">Table34</key>
 				</pair>
 				<pair index="5,6">
-					<key value="0">Table-3</key>
+					<key value="0">NOT_RELEVANT</key>
 					<key value="12">Table12</key>
 					<key value="50">Table50</key>
 				</pair>
 				<pair index="7,8">
-					<key value="0">Table-3</key>
+					<key value="0">NOT_RELEVANT</key>
 					<key value="12">Table67</key>
 					<key value="67">Table67</key>
 				</pair>
 				<pair index="9,10">
-					<key value="0">Table-3</key>
+					<key value="0">NOT_RELEVANT</key>
 					<key value="12">Table80</key>
 					<key value="80">Table80</key>
 				</pair>
@@ -128,8 +128,8 @@
 				</pair>
 			</pairs>
 		</columnName>
-		<start>12</start>
-		<length>13</length>
-		<sequence>14</sequence>
+		<start>13</start>
+		<length>14</length>
+		<sequence>15</sequence>
 	</rule>
 </rules>

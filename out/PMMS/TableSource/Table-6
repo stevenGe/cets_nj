@@ -1,0 +1,13 @@
+RCP_nominal_piping_diameter
+RCP_outside_diameter
+RCP_end_preparation
+RCP_schedule_thickness
+RCP_pressure_rating
+RCP_stress_analysis_node_number
+RCP_face_to_center_distance
+RCP_weld_number
+RCP_weld_type
+RCP_gasket_gap
+RCP_stress_intensification_factor
+RCP_head_loss_factor
+RCP_inspection_number

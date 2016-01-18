@@ -7,6 +7,7 @@ import com.njcets.tools.core.table.TableHandler;
 import com.njcets.tools.core.template.Template;
 import com.njcets.tools.core.template.TemplateHandler;
 import com.njcets.tools.core.template.TemplateItem;
+import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +16,7 @@ import java.util.List;
  * @author gexinl
  */
 public class ColumnNameTranslaterHandler {
+    private Logger logger = Logger.getLogger(ColumnNameTranslaterHandler.class);
 
     private List<ColumnMetaData> columnMetaDataList;
 
@@ -30,6 +32,7 @@ public class ColumnNameTranslaterHandler {
     }
 
     public void translate() {
+        logger.info("Translate column names");
         Template template = templateHandler.getTemplate();
         List<TemplateItem> templateItemsList = template.getItems();
         for(TemplateItem oneTemplateItem : templateItemsList) {
@@ -39,17 +42,18 @@ public class ColumnNameTranslaterHandler {
 
     private void generateColumnNameFromTemplate(TemplateItem templateItem) {
         AbstractTranslater columnTranslater = TranslaterFactory.getTranslater(templateItem);
-        System.out.println("=========== template item name is: " + templateItem.getItemName());
         Rule rule = ruleHandler.getRuleByName(templateItem.getItemName());
-        System.out.println("========== Current rule is: " + rule.getRuleName());
+
         columnTranslater.setRule(rule);
         columnTranslater.setTableHandler(tableHandler);
 
         List<String> templateLines = templateItem.getPureColumnDefinition();
         for(String line : templateLines) {
-            System.out.println("========= Start to translate line: " + line);
+            logger.info("Start to handle line: " + line);
             ColumnMetaData columnMetaData = columnTranslater.apply(line);
-            columnMetaDataList.add(columnMetaData);
+            if (!isColumnMetadataContained(columnMetaData)) {
+                columnMetaDataList.add(columnMetaData);
+            }
         }
     }
 
@@ -67,5 +71,18 @@ public class ColumnNameTranslaterHandler {
 
     public List<ColumnMetaData> getColumnMetaDataList() {
         return columnMetaDataList;
+    }
+
+    public boolean isColumnMetadataContained(ColumnMetaData columnMetaData) {
+        boolean isContained = false;
+        if(this.columnMetaDataList != null) {
+            for(ColumnMetaData oneColumnMD : this.columnMetaDataList) {
+                if(oneColumnMD.getColumnName().equalsIgnoreCase(columnMetaData.getColumnName())) {
+                    logger.warn("Duplicate column Name: " + oneColumnMD.getColumnName());
+                    isContained = true;
+                }
+            }
+        }
+        return  isContained;
     }
 }

@@ -3,7 +3,6 @@
 *.iml
 *.idea
 .idea/
-out/
 .DS_Store
 /dependencies.xml
 

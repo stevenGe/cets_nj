@@ -1,0 +1,34 @@
+COMMON_RECORD_DATA
+8
+ -1,  5,   0,  4, 0                                         ! Record_type
+ 12, 2,   4, 11, 0                                         ! Line_ID
+ 12, 36,  15, 2, 0                                         ! Dgn_area_no
+ -1,  2,  17, 10, 0                                         ! Segment_occurrence.
+ -1,  1,  27, 10, 0                                         ! Component_occurrence
+ 12,  7,  39,  1, 0                                         ! Package_system_no
+ 12, 12,  41,  6, 0                                         ! Piping_materials_class
+ -1,  3,  47, 13, 0                                         ! Commodity_code
+COMPONENT_ATTRIBUTES
+10
+ 34, 10,  0,  0, 50, 14,  0,  0,  0,  0, 0,  37,  2, 1      ! Fabrication_category
+ 34, 33, 34, 33, 50, 28, 67, 30,  0,  0, 0,  40,  1, 0      ! Hold_status
+  0,  1,  0,  1,  0,   1,  0,  1,  0,  0, 1,  60,  5, 0      ! GCP_nom_diam
+  0,  1,  0,  1,  0,  1,  0,  1,  0,  0, 2,  65,  5, 0      ! RCP_nom_diam
+  0,  4,  0,  4,  0,  4,  0,  4,  0,  0, 1,  70,  5, 0      ! GCP_sch_thk
+  0,  4,  0,  4,  0,  4,  0,  4,  0,  0, 2,  75,  5, 0      ! RCP_sch_thk
+ 34, 19,  0,  0,  0,  0,  0,  0,  0,  0, 0,  80,  5, 0      ! Branch_thk_modifier
+ 34, 28,  0,  0,  0,  0,  0,  0,  0,  0, 0,  85,  5, 0      ! Branch_width_BR_NPD_Plus
+ 34, 20,  0,  0, 50, 26,  0,  0,  0,  0, 0,  90,  5, 0      ! Bend_angle_Chain_length & Cold_spring_length
+  0,  0,  0,  0, 50, 22,  0,  0,  0,  0, 0, 120, 11, 0      ! Pipe_length
+IMPLIED_ITEMS
+5
+  2,  0,  0,  0,  0,  0,  0,   0,  0,  0,  3,  60,  5, 0    ! Bolt_diam
+  2,  0,  0,  0,  0,  0,  0,   0,  0,  0,  2,  85,  5, 0    ! Bolt_length
+  2,  0,  0,  0,  0,  0,  0,   0,  0,  0,  1, 120, 11, 0    ! Bolt_qty
+  4,  0,  1,  0,  1,  0,  1,   0,  0,  1,  0,  60,  5, 0    ! Gasket_diam
+  4,  0,  0,  0,  0,  0,  0, 202, 24,  0, -1,  37,  2, 1    ! Fabrication_category_from_PMC_for_bolts_and_gaskets
+GENERATED_ITEMS
+2
+  0,  2,  0,  2,  0,  2,  0,  2,  0,  0, 0,  1, 120, 11, 0  ! Qty
+ 34, 10,  0,  0,  0,  0,  0,  0,  0,  0, 0,  0,  37,  2, 1  ! FC for chain oper
+

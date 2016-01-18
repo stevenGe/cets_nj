@@ -5,6 +5,7 @@ import com.njcets.tools.core.rule.Rule;
 import com.njcets.tools.core.rule.RuleKVPair;
 import com.njcets.tools.core.table.TableColumn;
 import com.njcets.tools.core.table.TableHandler;
+import org.apache.log4j.Logger;
 
 import java.util.Iterator;
 import java.util.List;
@@ -16,6 +17,7 @@ import java.util.Set;
  * translate one line a time
  */
 public abstract class AbstractTranslater {
+    protected Logger logger = Logger.getLogger(AbstractTranslater.class);
 
     protected TableHandler tableHandler;
 
@@ -23,38 +25,34 @@ public abstract class AbstractTranslater {
 
 
     public ColumnMetaData apply(String line){
+        logger.info("apply rule on line: " + line);
         ColumnMetaData columnMetaData = new ColumnMetaData();
         String[] splitLine = line.split(",");
 
         String columnIndex = splitLine[rule.getStartIndex() - 1].trim();
-        System.out.println("=========== columnIndex is: " + columnIndex);
         columnMetaData.setColumnIndex(Integer.valueOf(columnIndex));
+
         String columnValueLength = splitLine[rule.getLengthIndex() - 1].trim();
-        System.out.println("=========== columnValueLength is: " + columnValueLength);
         columnMetaData.setColumnValueLength(Integer.valueOf(columnValueLength));
 
         // get the column name, using while loop until find the column name
         Map<String, List<RuleKVPair>> pairs = rule.getPairs();
-        System.out.println("============ rule pair size is: " + pairs.size());
         String columnName = null;
         Set<String> keySet = pairs.keySet();
         Iterator<String> it = keySet.iterator();
         while(it.hasNext()) {
             String onePair = it.next();
 
-            System.out.println("=============== Handle Pair Index: " + onePair + " ===============");
-
             List<RuleKVPair> kvPairs = pairs.get(onePair);
-
-            System.out.println("=============== get KVPairs length is: " + kvPairs.size() + " ===============");
-
             columnName = retrieveColumnName(splitLine, onePair, kvPairs);
             if(columnName != null) {
                 columnMetaData.setColumnName(columnName);
                 break;
             }
         }
-
+        logger.info("Column Name is: " + columnMetaData.getColumnName());
+        logger.info("Column Index is: " + columnMetaData.getColumnIndex());
+        logger.info("Column Value Length is: " + columnMetaData.getColumnValueLength());
         return columnMetaData;
     }
 
@@ -62,29 +60,28 @@ public abstract class AbstractTranslater {
         String result = null;
         String[] indexArray = pairIndex.split(",");
         if(indexArray.length == 2) {
-            System.out.println("=============== Index Array length is 2 ===============");
+
             String indexKey = indexArray[0].trim();
             String indexValue = indexArray[1].trim();
-
-            System.out.println("========== indexKey is: " + indexKey);
-            System.out.println("========== indexValue is: " + indexValue);
 
             String key = line[Integer.valueOf(indexKey) - 1].trim();
             String value = line[Integer.valueOf(indexValue) - 1].trim();
 
-            System.out.println("========== key is: " + key);
-            System.out.println("========== value is: " + value);
-
             RuleKVPair ruleKVPair = getRuleKVPairByKeyIndex(key, kvPairs);
 
             String tableName = ruleKVPair.getValue();
-            System.out.println("========== searched tableName is: " + tableName);
+
+
+            if(tableName.equals("NOT_RELEVANT")) {
+                return null;
+            }
+
             int tableColumnIndex = Integer.valueOf(value);
-            System.out.println("========== searched tableColumnIndex is: " + tableColumnIndex);
+
 
             TableColumn tableColumn = tableHandler.getTableColumn(tableName, tableColumnIndex);
             result = tableColumn.getColumnName();
-            System.out.println("========== searched result is: " + result);
+
         }
 
         return result;

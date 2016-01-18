@@ -186,55 +186,183 @@
         <TableName>Table-3</TableName>
         <TableColumns>
             <Column index="1">
-                <ColumnName>nominal_piping_diameter</ColumnName>
+                <ColumnName>GCP_nominal_piping_diameter</ColumnName>
                 <ColumnType>UNKNOWN</ColumnType>
             </Column>
             <Column index="2">
-                <ColumnName>outside_diameter</ColumnName>
+                <ColumnName>GCP_outside_diameter</ColumnName>
                 <ColumnType>UNKNOWN</ColumnType>
             </Column>
             <Column index="3">
-                <ColumnName>end_preparation</ColumnName>
+                <ColumnName>GCP_end_preparation</ColumnName>
                 <ColumnType>UNKNOWN</ColumnType>
             </Column>
             <Column index="4">
-                <ColumnName>schedule_thickness</ColumnName>
+                <ColumnName>GCP_schedule_thickness</ColumnName>
                 <ColumnType>UNKNOWN</ColumnType>
             </Column>
             <Column index="5">
-                <ColumnName>pressure_rating</ColumnName>
+                <ColumnName>GCP_pressure_rating</ColumnName>
                 <ColumnType>UNKNOWN</ColumnType>
             </Column>
             <Column index="6">
-                <ColumnName>stress_analysis_node_number</ColumnName>
+                <ColumnName>GCP_stress_analysis_node_number</ColumnName>
                 <ColumnType>UNKNOWN</ColumnType>
             </Column>
             <Column index="7">
-                <ColumnName>face_to_center_distance</ColumnName>
+                <ColumnName>GCP_face_to_center_distance</ColumnName>
                 <ColumnType>UNKNOWN</ColumnType>
             </Column>
             <Column index="8">
-                <ColumnName>weld_number</ColumnName>
+                <ColumnName>GCP_weld_number</ColumnName>
                 <ColumnType>UNKNOWN</ColumnType>
             </Column>
             <Column index="9">
-                <ColumnName>weld_type</ColumnName>
+                <ColumnName>GCP_weld_type</ColumnName>
                 <ColumnType>UNKNOWN</ColumnType>
             </Column>
             <Column index="10">
-                <ColumnName>gasket_gap</ColumnName>
+                <ColumnName>GCP_gasket_gap</ColumnName>
                 <ColumnType>UNKNOWN</ColumnType>
             </Column>
             <Column index="11">
-                <ColumnName>stress_intensification_factor</ColumnName>
+                <ColumnName>GCP_stress_intensification_factor</ColumnName>
                 <ColumnType>UNKNOWN</ColumnType>
             </Column>
             <Column index="12">
-                <ColumnName>head_loss_factor</ColumnName>
+                <ColumnName>GCP_head_loss_factor</ColumnName>
                 <ColumnType>UNKNOWN</ColumnType>
             </Column>
             <Column index="13">
-                <ColumnName>inspection_number</ColumnName>
+                <ColumnName>GCP_inspection_number</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+        </TableColumns>
+    </Table>
+    <Table>
+        <TableName>Table-4</TableName>
+        <TableColumns>
+            <Column index="1">
+                <ColumnName>Number_of_bolts</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="2">
+                <ColumnName>Bolt_length_in_Project_Units</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="3">
+                <ColumnName>Bolt_diameter</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="4">
+                <ColumnName>Number_of_nuts</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="5">
+                <ColumnName>Bolt_diameter_in_English_Units</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="6">
+                <ColumnName>Bolt_length_in_English_Units</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="7">
+                <ColumnName>Bolt_weight_in_English_Units_pounds</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="8">
+                <ColumnName>Bolt_weight_in_English_Units_kilograms</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+        </TableColumns>
+    </Table>
+    <Table>
+        <TableName>Table-5</TableName>
+        <TableColumns>
+            <Column index="1">
+                <ColumnName>Weld_ID_number</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="2">
+                <ColumnName>Weld_Type</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="3">
+                <ColumnName>Material_A</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="4">
+                <ColumnName>Material_B</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+        </TableColumns>
+    </Table>
+    <Table>
+        <TableName>Table-6</TableName>
+        <TableColumns>
+            <Column index="1">
+                <ColumnName>RCP_nominal_piping_diameter</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="2">
+                <ColumnName>RCP_outside_diameter</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="3">
+                <ColumnName>RCP_end_preparation</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="4">
+                <ColumnName>RCP_schedule_thickness</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="5">
+                <ColumnName>RCP_pressure_rating</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="6">
+                <ColumnName>RCP_stress_analysis_node_number</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="7">
+                <ColumnName>RCP_face_to_center_distance</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="8">
+                <ColumnName>RCP_weld_number</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="9">
+                <ColumnName>RCP_weld_type</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="10">
+                <ColumnName>RCP_gasket_gap</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="11">
+                <ColumnName>RCP_stress_intensification_factor</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="12">
+                <ColumnName>RCP_head_loss_factor</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="13">
+                <ColumnName>RCP_inspection_number</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+        </TableColumns>
+    </Table>
+    <Table>
+        <TableName>Table-7</TableName>
+        <TableColumns>
+            <Column index="1">
+                <ColumnName>Generated_item_commodity_code</ColumnName>
+                <ColumnType>UNKNOWN</ColumnType>
+            </Column>
+            <Column index="2">
+                <ColumnName>Generated_item_quantity</ColumnName>
                 <ColumnType>UNKNOWN</ColumnType>
             </Column>
         </TableColumns>
