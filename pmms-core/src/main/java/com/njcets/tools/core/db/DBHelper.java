@@ -3,6 +3,7 @@ package com.njcets.tools.core.db;
 import com.njcets.tools.core.data.MaterialTable;
 import com.njcets.tools.core.data.Row;
 import com.njcets.tools.core.pmmswriter.XLSWriter;
+import com.njcets.tools.core.xls.template.XLSTemplateItem;
 import org.apache.log4j.Logger;
 
 import java.sql.*;
@@ -123,7 +124,7 @@ public class DBHelper {
         }
     }
 
-    // read out column names from table
+    // read out all column names from table
     public List<String> readTableColumnNames() {
         List<String> titles = new ArrayList<String>();
         Statement stmt = null;
@@ -144,11 +145,38 @@ public class DBHelper {
     }
 
     // read out data from PMMS_RESULT table
+    public void readDataToXLSWriter(XLSWriter xlsWriter, XLSTemplateItem xlsTemplateItem){
+        List<String> columnNames = readTableColumnNames();
+        Statement stmt = null;
+        try {
+            stmt = dbConnection.createStatement();
+            String sqlStatement = generatreSQlStatement(xlsTemplateItem);
+            logger.info("Generate SQL Statement is: [" + sqlStatement + "]");
+//            ResultSet rs = stmt.executeQuery("SELECT * FROM PMMS_RESULT;");
+            ResultSet rs = stmt.executeQuery(sqlStatement);
+
+            while(rs.next()) {
+                List<String> columnValues = new ArrayList<String>();
+                for(String oneColumn : columnNames) {
+                    String oneColumnValue = rs.getString(oneColumn);
+                    columnValues.add(oneColumnValue);
+                }
+                xlsWriter.addOneRow2XLS(columnValues);
+            }
+
+            rs.close();
+            stmt.close();
+        } catch (SQLException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }
+
     public void readDataToXLSWriter(XLSWriter xlsWriter){
         List<String> columnNames = readTableColumnNames();
         Statement stmt = null;
         try {
             stmt = dbConnection.createStatement();
+            logger.info("Generate SQL Statement is: " + "[SELECT * FROM PMMS_RESULT;]");
             ResultSet rs = stmt.executeQuery("SELECT * FROM PMMS_RESULT;");
 
             while(rs.next()) {
@@ -157,7 +185,7 @@ public class DBHelper {
                     String oneColumnValue = rs.getString(oneColumn);
                     columnValues.add(oneColumnValue);
                 }
-                xlsWriter.addRowContent2XLS(columnValues);
+                xlsWriter.addOneRow2XLS(columnValues);
             }
 
             rs.close();
@@ -173,5 +201,14 @@ public class DBHelper {
         } catch (SQLException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
+    }
+
+    private String generatreSQlStatement(XLSTemplateItem xlsTemplateItem) {
+        StringBuffer sqlStatement = new StringBuffer("SELECT ");
+        sqlStatement.append(xlsTemplateItem.getColumnNames()).append(" ");
+        sqlStatement.append("FROM PMMS_RESULT ");
+        sqlStatement.append(" WHERE ").append(xlsTemplateItem.getFilters());
+        sqlStatement.append(" ORDER BY ").append(xlsTemplateItem.getOrderBySequence());
+        return sqlStatement.toString();
     }
 }

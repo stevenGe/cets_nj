@@ -242,7 +242,7 @@ public class MainTranslateColumn {
                     String oneColumnValue = rs.getString(oneColumn);
                     columnValues.add(oneColumnValue);
                 }
-                xlsWriter.addRowContent2XLS(columnValues);
+                xlsWriter.addOneRow2XLS(columnValues);
             }
 
             rs.close();

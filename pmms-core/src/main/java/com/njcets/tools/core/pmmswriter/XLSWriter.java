@@ -26,12 +26,21 @@ public class XLSWriter {
 
     private Sheet sheet;
 
-    private int rowIndex = 1;   // start from 1, 0 is the column name index
+    private int rowIndex = 0;
 
     public XLSWriter(String xlsFilePath) {
         this.xlsFilePath = xlsFilePath;
         this.workbook = new HSSFWorkbook();
         this.sheet = workbook.createSheet("PMMS_RESULT");
+    }
+
+    public void addOneRow2XLS(List<String> rowColumnValues) {
+        Row row = sheet.createRow((short)rowIndex);
+        for(int i = 0; i < rowColumnValues.size(); i++) {
+            Cell cell = row.createCell(i);
+            cell.setCellValue(rowColumnValues.get(i));
+        }
+        rowIndex++;
     }
 
     public void addTitle2XLS(List<String> titleColumnNames) {
@@ -42,15 +51,15 @@ public class XLSWriter {
         }
 
     }
-
-    public void addRowContent2XLS(List<String> rowColumnValues) {
-        Row row = sheet.createRow((short)rowIndex);                // The first row is the title
-        for(int i = 0; i < rowColumnValues.size(); i++) {
-            Cell cell = row.createCell(i);
-            cell.setCellValue(rowColumnValues.get(i));
-        }
-        rowIndex++;
-    }
+//
+//    public void addRowContent2XLS(List<String> rowColumnValues) {
+//        Row row = sheet.createRow((short)rowIndex);                // The first row is the title
+//        for(int i = 0; i < rowColumnValues.size(); i++) {
+//            Cell cell = row.createCell(i);
+//            cell.setCellValue(rowColumnValues.get(i));
+//        }
+//        rowIndex++;
+//    }
 
     public void writeToXLS() {
         logger.info("Write rows to XLS file: " + xlsFilePath);

@@ -11,6 +11,8 @@ import com.njcets.tools.core.rule.RuleHandler;
 import com.njcets.tools.core.table.TableHandler;
 import com.njcets.tools.core.template.TemplateHandler;
 import com.njcets.tools.core.translater.ColumnNameTranslaterHandler;
+import com.njcets.tools.core.xls.template.XLSTemplateHandler;
+import com.njcets.tools.core.xls.template.XLSTemplateItem;
 import org.apache.commons.cli.*;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
@@ -169,13 +171,29 @@ public class PMMSAdmin {
             if( line.hasOption( "exportData" ) ) {
                 logger.info("export data to excel file...");
                 String[] values = line.getOptionValues( "export-data" );
-                String xlsTemplate = values[0];
+                String xlsTemplateFilePath = values[0];
                 String xlsFilePath = values[1];
 
                 DBHelper dbHelper = new DBHelper();
                 XLSWriter xlsWriter = new XLSWriter(xlsFilePath);
-                xlsWriter.addTitle2XLS(dbHelper.readTableColumnNames());
-                dbHelper.readDataToXLSWriter(xlsWriter);
+
+                // TODO : handle the xls Template file to generate search sql statement
+                XLSTemplateHandler xlsTemplateHandler = new XLSTemplateHandler(xlsTemplateFilePath);
+                xlsTemplateHandler.readTemplate();
+                List<XLSTemplateItem> xlsTemplateItemList = xlsTemplateHandler.getXlsTemplateItems();
+
+                if(xlsTemplateItemList.size() != 0) {
+                    for(XLSTemplateItem oneTemplateItem : xlsTemplateItemList) {
+                        xlsWriter.addOneRow2XLS(oneTemplateItem.getColumnNamesAsList());
+                        dbHelper.readDataToXLSWriter(xlsWriter, oneTemplateItem);
+                    }
+                } else {
+                    // search out all of the data in current PMMS_RESULT table.
+                    xlsWriter.addTitle2XLS(dbHelper.readTableColumnNames());
+                    dbHelper.readDataToXLSWriter(xlsWriter);
+                }
+//                xlsWriter.addTitle2XLS(dbHelper.readTableColumnNames());
+//                dbHelper.readDataToXLSWriter(xlsWriter);
                 xlsWriter.writeToXLS();
 
                 logger.info("Export data Successfully");
