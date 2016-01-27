@@ -16,7 +16,7 @@ public class TestXLSTemplateHandler {
 
     @Before
     public void setup() {
-        this.xlsTemplateHandler = new XLSTemplateHandler("C:\\cets_pmms\\xls_template\\test_xls_template.json");
+        this.xlsTemplateHandler = new XLSTemplateHandler("/Users/gexinlu/development/github/cets_nj/out/PMMS/xls-template/test_xls_template.json");
     }
 
     @After
@@ -24,7 +24,7 @@ public class TestXLSTemplateHandler {
 
     }
 
-    @Test
+    //@Test
     public void testReadXLSTemplate() {
         xlsTemplateHandler.readTemplate();
     }

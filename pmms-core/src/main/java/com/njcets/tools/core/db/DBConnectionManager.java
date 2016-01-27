@@ -16,6 +16,7 @@ public class DBConnectionManager {
 
     // TODO: get DB_PATH from config file
     private final String DB_PATH = EnvManager.getInstance().getPMMS_RESULT_DB_FILE();
+//    private String DB_PATH = "/Users/gexinlu/Downloads/cets_pmms/db/pmms.db";
 
     private Connection connection = null;
 
