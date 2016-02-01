@@ -45,7 +45,8 @@ class login_tk(Tkinter.Tk):
         # self.withdraw() # hide the login window
         # TODO: use hash to encrypt password
         # doc = minidom.parse("C:\cets_pmms\conf\users.xml")
-        doc = minidom.parse(os.getcwd() + os.sep + "../conf/users.xml")
+        doc = minidom.parse("/Users/gexinlu/Downloads/cets_pmms/conf/users.xml")
+        # doc = minidom.parse(os.getcwd() + os.sep + "../conf/users.xml")
         users = doc.getElementsByTagName("users")
         for user in users:
             userName = user.getElementsByTagName("name")[0]
@@ -81,6 +82,8 @@ class login_tk(Tkinter.Tk):
 
 
     def drawGenerateMT(self):
+        for child in self.frame_right.winfo_children():
+            child.destroy()
         neutralFilePathLabel = Tkinter.Label(self.frame_right, text=u'Neutral File Path: ')
         neutralFilePathLabel.grid(row=0, column=0, sticky='W', padx=12, pady=30)
 
@@ -99,6 +102,7 @@ class login_tk(Tkinter.Tk):
         button_generateMTable.grid(row=2, column=0, sticky='W', padx=12, pady=30)
 
     def generateMaterialTable(self):
+        # self.frame_right.grid_forget()
         # TODO: call batch command to generate material table
         # command_params = ' '.join(['-importData', self.neutralFilePathVariable.get(), self.materialDirPathVariable.get()])
         return_code = subprocess.check_call(['pmmsAdmin.bat', '-importData', self.neutralFilePathVariable.get(), self.materialDirPathVariable.get()])
@@ -128,19 +132,38 @@ class login_tk(Tkinter.Tk):
 
 
     def drawEditExcelTemplate(self):
-        self.frame_right.grid_forget()
+        # self.frame_right.grid_forget()
         tkMessageBox.showinfo("drawEditExcelTemplate")
 
     def drawExportXLSFile(self):
-        xslTemplateFilePathLabel = Tkinter.Label(self.frame_right, text=u'XLS Template File Path: ')
-        xslTemplateFilePathLabel.grid(row=0, column=0, sticky='W', padx=12, pady=30)
+        for child in self.frame_right.winfo_children():
+            child.destroy()
+        # self.frame_right.grid_forget()
 
-        self.xlsTemplateFilePathVariable = Tkinter.StringVar()
-        self.xlsTemplateFileEntry = Tkinter.Entry(self.frame_right, textvariable=self.xlsTemplateFilePathVariable, bd=5, width=25)
-        self.xlsTemplateFileEntry.grid(row=0, column=1, sticky='W', padx=12, pady=30)
+        self.frame_inside_left = Tkinter.Frame(self.frame_right, width=80, height=40, bg='white')
+        xlsTemplateFilePathLabel = Tkinter.Label(self.frame_inside_left, text=u'XLS Template File Path: ')
+        xlsTemplateFilePathLabel.grid(row=0, column=0, sticky='W', padx=12, pady=30)
 
-        button_editTemplate = Tkinter.Button(self.frame_right, text=u'Edit',command=self.generateMaterialTable)
+        # self.xlsTemplateFilePathVariable = Tkinter.StringVar()
+        # self.xlsTemplateFileEntry = Tkinter.Entry(self.frame_right, textvariable=self.xlsTemplateFilePathVariable, bd=5, width=25)
+        # self.xlsTemplateFileEntry.grid(row=0, column=1, sticky='W', padx=12, pady=
+
+
+        scrollbar = Tkinter.Scrollbar(self.frame_inside_left)
+
+        xlsTemplateListBox = Tkinter.Listbox(self.frame_inside_left,height=1,yscrollcommand=scrollbar.set)
+        xlsTemplateListBox.insert("end", "one")
+        xlsTemplateListBox.insert("end", "two")
+        xlsTemplateListBox.insert("end", "three")
+
+
+        scrollbar.pack(side='right', fill='y')
+        xlsTemplateListBox.grid(row=0, column=1, sticky='W', padx=12, pady=30)
+
+        button_editTemplate = Tkinter.Button(self.frame_inside_left, text=u'Edit',command=self.generateMaterialTable)
         button_editTemplate.grid(row=0, column=2, sticky='W', padx=12, pady=30)
+
+        self.frame_left.grid(row=0, column=0, sticky='W', padx=12, pady=30)
 
         XLSFilePathLabel = Tkinter.Label(self.frame_right, text=u'Output XLS File PATH: ')
         XLSFilePathLabel.grid(row=1, column=0, sticky='W', padx=12, pady=30)

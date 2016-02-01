@@ -174,30 +174,35 @@ public class PMMSAdmin {
                 String xlsTemplateFilePath = values[0];
                 String xlsFilePath = values[1];
 
+
                 DBHelper dbHelper = new DBHelper();
                 XLSWriter xlsWriter = new XLSWriter(xlsFilePath);
 
-                // TODO : handle the xls Template file to generate search sql statement
-                XLSTemplateHandler xlsTemplateHandler = new XLSTemplateHandler(xlsTemplateFilePath);
-                xlsTemplateHandler.readTemplate();
-                List<XLSTemplateItem> xlsTemplateItemList = xlsTemplateHandler.getXlsTemplateItems();
-
-                if(xlsTemplateItemList.size() != 0) {
-                    for(XLSTemplateItem oneTemplateItem : xlsTemplateItemList) {
-                        xlsWriter.addOneRow2XLS(oneTemplateItem.getColumnNamesAsList());
-                        dbHelper.readDataToXLSWriter(xlsWriter, oneTemplateItem);
-                    }
-                } else {
-                    // search out all of the data in current PMMS_RESULT table.
-                    xlsWriter.addTitle2XLS(dbHelper.readTableColumnNames());
+                if(xlsTemplateFilePath == null || xlsTemplateFilePath.equals("")) {
+                    xlsWriter.addOneRow2XLS(dbHelper.readTableColumnNames());
                     dbHelper.readDataToXLSWriter(xlsWriter);
+                } else {
+                    XLSTemplateHandler xlsTemplateHandler = new XLSTemplateHandler(xlsTemplateFilePath);
+                    xlsTemplateHandler.readTemplate();
+                    List<XLSTemplateItem> xlsTemplateItemList = xlsTemplateHandler.getXlsTemplateItems();
+
+                    if(xlsTemplateItemList.size() != 0) {
+                        for(XLSTemplateItem oneTemplateItem : xlsTemplateItemList) {
+                            xlsWriter.addOneRow2XLS(oneTemplateItem.getColumnNamesAsList());
+                            dbHelper.readDataToXLSWriter(xlsWriter, oneTemplateItem);
+                        }
+                    } else {
+                        // search out all of the data in current PMMS_RESULT table.
+                        xlsWriter.addOneRow2XLS(dbHelper.readTableColumnNames());
+                        dbHelper.readDataToXLSWriter(xlsWriter);
+                    }
                 }
-//                xlsWriter.addTitle2XLS(dbHelper.readTableColumnNames());
-//                dbHelper.readDataToXLSWriter(xlsWriter);
+
                 xlsWriter.writeToXLS();
 
                 logger.info("Export data Successfully");
                 System.exit(0);
+
             }
         } catch( ParseException exp ) {
             // oops, something went wrong

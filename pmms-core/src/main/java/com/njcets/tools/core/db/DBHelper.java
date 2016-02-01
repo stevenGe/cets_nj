@@ -146,7 +146,7 @@ public class DBHelper {
 
     // read out data from PMMS_RESULT table
     public void readDataToXLSWriter(XLSWriter xlsWriter, XLSTemplateItem xlsTemplateItem){
-        List<String> columnNames = readTableColumnNames();
+        List<String> columnNames = xlsTemplateItem.getColumnNamesAsList();
         Statement stmt = null;
         try {
             stmt = dbConnection.createStatement();
@@ -208,7 +208,7 @@ public class DBHelper {
         sqlStatement.append(xlsTemplateItem.getColumnNames()).append(" ");
         sqlStatement.append("FROM PMMS_RESULT ");
         sqlStatement.append(" WHERE ").append(xlsTemplateItem.getFilters());
-        sqlStatement.append(" ORDER BY ").append(xlsTemplateItem.getOrderBySequence());
+        sqlStatement.append(" ORDER BY ").append(xlsTemplateItem.getOrderBySequence()).append(";");
         return sqlStatement.toString();
     }
 }

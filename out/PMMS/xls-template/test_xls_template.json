@@ -1,0 +1,15 @@
+{
+  "templateItems" : [
+    {
+      "columnNames" : "record_type,line_number_label",
+      "filters" : "record_type=COMP",
+      "orderBySequence" : "line_number_label"
+    },
+    {
+      "columnNames" : "record_type,pipe_length",
+      "filters" : "record_type=PIPE",
+      "orderBySequence" : "line_number_label"
+    }
+  ]
+
+}
