@@ -11,6 +11,7 @@ from os.path import isfile, join
 import Tkconstants
 import sqlite3
 import json
+import tkFileDialog
 
 class login_tk(Tkinter.Tk):
     def __init__(self, parent):
@@ -61,7 +62,8 @@ class login_tk(Tkinter.Tk):
             tkMessageBox.showerror("ERROR","Invalid Username or UserPassword.")
 
     def drawMainPage(self):
-        maintop = Tkinter.Toplevel(self)
+        maintop = Tkinter.Toplevel(self.parent)
+        self.withdraw()
         maintop.title('PMMS MAIN MENU')
         maintop.geometry('600x400')
         self.frame_left = Tkinter.Frame(maintop, width=150, height=390, bg='white')
@@ -73,12 +75,13 @@ class login_tk(Tkinter.Tk):
         # button_importNeutralFile = Tkinter.Button(frame_left, text=u'Import Neutral File  ')
         # button_importMaterialFile = Tkinter.Button(frame_left, text=u'Import Material File ')
         button_generateMaterialTable = Tkinter.Button(self.frame_left, text=u'Material Generator  ',command=self.drawGenerateMT)
-        button_editExcelTemplate = Tkinter.Button(self.frame_left, text=u'Edit XLS Template    ',command=self.drawCreateExcelTemplate)
+        # Not need it anymore
+        # button_editExcelTemplate = Tkinter.Button(self.frame_left, text=u'Edit XLS Template    ',command=self.drawCreateExcelTemplate)
         button_exportToXLSFile = Tkinter.Button(self.frame_left, text=u'Export Data To XLS     ',command=self.drawExportXLSFile)
         # button_importNeutralFile.grid(row=0, column=0, sticky='W', padx=12, pady=30)
         # button_importMaterialFile.grid(row=1, column=0, sticky='W', padx=12, pady=30)
         button_generateMaterialTable.grid(row=0, column=0, sticky='W', padx=12, pady=30)
-        button_editExcelTemplate.grid(row=2, column=0, sticky='W', padx=12, pady=30)
+        # button_editExcelTemplate.grid(row=2, column=0, sticky='W', padx=12, pady=30)
         button_exportToXLSFile.grid(row=3, column=0, sticky='W', padx=12, pady=30)
 
 
@@ -92,6 +95,9 @@ class login_tk(Tkinter.Tk):
         self.neutralFileEntry = Tkinter.Entry(self.frame_right, textvariable=self.neutralFilePathVariable, bd=5, width=25)
         self.neutralFileEntry.grid(row=0, column=1, sticky='W', padx=12, pady=30)
 
+        button_browseNeutralFile = Tkinter.Button(self.frame_right, text=u'Browse',command=self.openNeutralFile)
+        button_browseNeutralFile.grid(row=0, column=2, sticky='W', padx=12, pady=30)
+
         materialDirPathLabel = Tkinter.Label(self.frame_right, text=u'Material Directory Path: ')
         materialDirPathLabel.grid(row=1, column=0, sticky='W', padx=12, pady=30)
 
@@ -99,8 +105,19 @@ class login_tk(Tkinter.Tk):
         self.materialDirPathEntry = Tkinter.Entry(self.frame_right, textvariable=self.materialDirPathVariable, bd=5, width=25)
         self.materialDirPathEntry.grid(row=1, column=1, sticky='W', padx=12, pady=30)
 
+        button_browseMaterialDir = Tkinter.Button(self.frame_right, text=u'Browse',command=self.openMaterialDir)
+        button_browseMaterialDir.grid(row=1, column=2, sticky='W', padx=12, pady=30)
+
         button_generateMTable = Tkinter.Button(self.frame_right, text=u'Generate',command=self.generateMaterialTable)
         button_generateMTable.grid(row=2, column=0, sticky='W', padx=12, pady=30)
+
+    def openNeutralFile(self):
+        selectedNeutralFileName = tkFileDialog.askopenfile(parent=self.frame_right,initialdir='/home/',title='Select your neutral file')
+        self.neutralFilePathVariable.set(selectedNeutralFileName.name)
+
+    def openMaterialDir(self):
+        selectedMaterialDir = tkFileDialog.askdirectory(parent=self.frame_right,initialdir='/home/',title='Select your material directory')
+        self.materialDirPathVariable.set(selectedMaterialDir)
 
     def generateMaterialTable(self):
         return_code = subprocess.check_call(['pmmsAdmin.bat', '-importData', self.neutralFilePathVariable.get(), self.materialDirPathVariable.get()])
@@ -221,9 +238,6 @@ class login_tk(Tkinter.Tk):
     def clearColumnToTemplate(self):
         self.columnNamesLabel['text'] = ""
 
-
-
-
     def drawExportXLSFile(self):
         for child in self.frame_right.winfo_children():
             child.destroy()
@@ -235,7 +249,9 @@ class login_tk(Tkinter.Tk):
         # self.xlsTemplateFileEntry.grid(row=0, column=1, sticky='W', padx=12, pady=30)
 
         self.xlsTemplateFileDirPath = os.getcwd() + os.sep + "../xls-template"
-        self.xlsTemplateFileList = [f for f in listdir(self.xlsTemplateFileDirPath) if isfile(join(self.xlsTemplateFileDirPath, f))]
+        self.xlsTemplateFileList = []
+        # Not need xls file template anymore
+        # self.xlsTemplateFileList = [f for f in listdir(self.xlsTemplateFileDirPath) if isfile(join(self.xlsTemplateFileDirPath, f))]
         self.xlsTemplateFileList.append(u' * export all data')
 
         self.value_of_xlsCombobox = "Please select a xls template"
@@ -247,11 +263,13 @@ class login_tk(Tkinter.Tk):
         self.xlsCombobox.current(0)
         self.xlsCombobox.grid(row=0, column=1, sticky='W', padx=12, pady=30)
 
-        button_editTemplate = Tkinter.Button(self.frame_right, text=u'Edit',command=self.modifyXlsTemplate)
-        button_editTemplate.grid(row=0, column=2, sticky='W', padx=12, pady=30)
+        # Not need it anymore
+        # button_editTemplate = Tkinter.Button(self.frame_right, text=u'Edit',command=self.modifyXlsTemplate)
+        # button_editTemplate.grid(row=0, column=2, sticky='W', padx=12, pady=30)
 
-        button_deleteTemplate = Tkinter.Button(self.frame_right, text=u'Delete',command=self.deleteXlsTemplate)
-        button_deleteTemplate.grid(row=0, column=3, sticky='W', padx=12, pady=30)
+        # Not need it anymore
+        # button_deleteTemplate = Tkinter.Button(self.frame_right, text=u'Delete',command=self.deleteXlsTemplate)
+        # button_deleteTemplate.grid(row=0, column=3, sticky='W', padx=12, pady=30)
 
         XLSFilePathLabel = Tkinter.Label(self.frame_right, text=u'Output XLS File PATH: ')
         XLSFilePathLabel.grid(row=1, column=0, sticky='W', padx=12, pady=30)
@@ -260,8 +278,15 @@ class login_tk(Tkinter.Tk):
         self.XLSFilePathEntry = Tkinter.Entry(self.frame_right, textvariable=self.XLSFilePathVariable, bd=5, width=25)
         self.XLSFilePathEntry.grid(row=1, column=1, sticky='W', padx=12, pady=30)
 
+        button_browseNeutralFile = Tkinter.Button(self.frame_right, text=u'Browse',command=self.openXLSFile)
+        button_browseNeutralFile.grid(row=1, column=2, sticky='W', padx=12, pady=30)
+
         button_generateMTable = Tkinter.Button(self.frame_right, text=u'  Export   ',command=self.exportMaterialTable)
         button_generateMTable.grid(row=2, column=0, sticky='W', padx=12, pady=30)
+
+    def openXLSFile(self):
+        selectedXLSFileName = tkFileDialog.askopenfile(parent=self.frame_right,initialdir='/home/',title='Select your xls file', filetypes=[('xls file', "*.xls")])
+        self.XLSFilePathVariable.set(selectedXLSFileName.name)
 
     def modifyXlsTemplate(self):
         self.drawTopWinToModifyXlsTemplate()
