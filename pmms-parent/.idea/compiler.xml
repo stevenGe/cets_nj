@@ -27,6 +27,11 @@
         <module name="pmms-tools" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pmms-core" target="1.5" />
+      <module name="pmms-parent" target="1.5" />
+      <module name="pmms-runtime" target="1.5" />
+      <module name="pmms-tools" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-

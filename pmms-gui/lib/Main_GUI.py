@@ -12,6 +12,8 @@ import Tkconstants
 import sqlite3
 import json
 import tkFileDialog
+import hashlib
+from xml.etree.ElementTree import Element, SubElement, Comment, tostring
 
 class login_tk(Tkinter.Tk):
     def __init__(self, parent):
@@ -23,25 +25,114 @@ class login_tk(Tkinter.Tk):
         self.geometry('400x300')
         self.center()
 
+        logo = Tkinter.PhotoImage(file="logo.gif")
+        logoLab = Tkinter.Label(self, image=logo)
+        logoLab.image = logo
+        logoLab.place(x=65, y=20)
+
         userNameLabel = Tkinter.Label(self, text=u'Username')
-        userNameLabel.place(x=100, y=50)
+        userNameLabel.place(x=115, y=100)
 
         self.userNameEntryVariable = Tkinter.StringVar()
         self.userNameEntry = Tkinter.Entry(self, textvariable=self.userNameEntryVariable, bd=5, width=25)
-        self.userNameEntry.place(x=100, y=70)
+        self.userNameEntry.place(x=115, y=120)
 
         passwdLabel = Tkinter.Label(self, text=u'Password')
-        passwdLabel.place(x=100, y=100)
+        passwdLabel.place(x=115, y=150)
 
         self.passwdEntryVariable = Tkinter.StringVar()
         self.passwdEntry = Tkinter.Entry(self, textvariable=self.passwdEntryVariable, show='*', bd=5, width=25)
-        self.passwdEntry.place(x=100, y=120)
+        self.passwdEntry.place(x=115, y=170)
 
         loginButton = Tkinter.Button(self, text=u"Log in", command=self.onLogin)
-        loginButton.place(x=100, y=160)
+        loginButton.place(x=115, y=210)
 
-        changePWButton = Tkinter.Button(self, text=u"Change Password")
-        changePWButton.place(x=155, y=160)
+        changePWButton = Tkinter.Button(self, text=u"Change Password", command=self.changePassword)
+        changePWButton.place(x=170, y=210)
+
+    def changePassword(self):
+        self.drawChangePasswordPage()
+
+    def drawChangePasswordPage(self):
+        changePWDPagetop = Tkinter.Toplevel(self.parent)
+        changePWDPagetop.title('Change admin user password')
+        changePWDPagetop.geometry('400x350')
+
+        logo = Tkinter.PhotoImage(file="logo.gif")
+        logoLab = Tkinter.Label(changePWDPagetop, image=logo)
+        logoLab.image = logo
+        logoLab.place(x=65, y=20)
+
+        userNameLabel = Tkinter.Label(changePWDPagetop, text=u'Username:     admin')
+        userNameLabel.place(x=115, y=100)
+
+        original_passwdLabel = Tkinter.Label(changePWDPagetop, text=u'Original Password:')
+        original_passwdLabel.place(x=115, y=120)
+
+        self.original_passwdEntryVariable = Tkinter.StringVar()
+        self.original_passwdEntry = Tkinter.Entry(changePWDPagetop, show='*', textvariable=self.original_passwdEntryVariable, bd=5, width=25)
+        self.original_passwdEntry.place(x=115, y=150)
+
+        new_passwdLabel = Tkinter.Label(changePWDPagetop, text=u'New Password:')
+        new_passwdLabel.place(x=115, y=170)
+
+        self.new_passwdEntryVariable = Tkinter.StringVar()
+        self.new_passwdEntry = Tkinter.Entry(changePWDPagetop, show='*', textvariable=self.new_passwdEntryVariable, bd=5, width=25)
+        self.new_passwdEntry.place(x=115, y=190)
+
+        retype_new_passwdLabel = Tkinter.Label(changePWDPagetop, text=u'Retype New Password:')
+        retype_new_passwdLabel.place(x=115, y=210)
+
+        self.retype_new_passwdEntryVariable = Tkinter.StringVar()
+        self.retype_new_passwdEntry = Tkinter.Entry(changePWDPagetop, show='*', textvariable=self.retype_new_passwdEntryVariable, bd=5, width=25)
+        self.retype_new_passwdEntry.place(x=115, y=230)
+
+        updatePWButton = Tkinter.Button(changePWDPagetop, text=u"Update Password", command=self.updatePassword)
+        updatePWButton.place(x=115, y=270)
+
+    def updatePassword(self):
+        isUserValid = False
+
+        doc = minidom.parse(os.getcwd() + os.sep + "../conf/users.xml")
+        users = doc.getElementsByTagName("users")
+        for user in users:
+            userName = user.getElementsByTagName("name")[0]
+            userPassword = user.getElementsByTagName("password")[0]
+            if userName.firstChild.data == 'admin':
+                original_password_entry_variable = self.original_passwdEntryVariable.get()
+                original_password_entry_hash_str = hashlib.sha256(original_password_entry_variable).hexdigest()
+                if userPassword.firstChild.data == original_password_entry_hash_str:
+                    isUserValid = True
+        if isUserValid:
+            self.writeNewPasswordToXML()
+        else:
+            tkMessageBox.showerror("ERROR","Incorrect Password.")
+
+    def writeNewPasswordToXML(self):
+        new_password_entry_variable = self.new_passwdEntryVariable.get()
+        retype_new_password_entry_variable = self.retype_new_passwdEntryVariable.get()
+
+        if new_password_entry_variable == retype_new_password_entry_variable:
+            root = Element('users')
+            userElement = Element('user')
+            root.append(userElement)
+            nameElement = Element('name')
+            passwordElement = Element('password')
+            userElement.append(nameElement)
+            userElement.append(passwordElement)
+            nameElement.text = 'admin'
+
+            password_text = new_password_entry_variable
+            hash_password_obj = hashlib.sha256(password_text)
+            hex_dig = hash_password_obj.hexdigest()
+            passwordElement.text = hex_dig
+
+            with open(os.getcwd() + os.sep + "../conf/users.xml", "w") as f:
+                f.write(tostring(root))
+
+            tkMessageBox.showinfo("Success","Update password successfully.")
+        else:
+           tkMessageBox.showerror("ERROR","You must enter the same password twice in order to confirm it.")
 
     def onLogin(self):
         isUserValid = False
@@ -54,7 +145,9 @@ class login_tk(Tkinter.Tk):
             userName = user.getElementsByTagName("name")[0]
             userPassword = user.getElementsByTagName("password")[0]
             if userName.firstChild.data == self.userNameEntryVariable.get():
-                if userPassword.firstChild.data == self.passwdEntryVariable.get():
+                password_entry_variable = self.passwdEntryVariable.get()
+                password_entry_hash_str = hashlib.sha256(password_entry_variable).hexdigest()
+                if userPassword.firstChild.data == password_entry_hash_str:
                     isUserValid = True
         if isUserValid:
             self.drawMainPage()
